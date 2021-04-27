@@ -1,0 +1,110 @@
+/* ------------ Fonts -------------- */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* ------------ Body --------------- */
+
+/* ----------- Generals ------------ */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 1em;
+  color: #202020;
+}
+/* -------- Main wrapper ----------- */
+div#main_wrapper {
+  width: 98%;
+  margin: 3px auto;
+}
+
+/* ------------ Header ------------- */
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+header div:last-child {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+header img {
+  margin-top: 40px;
+}
+header ul {
+  list-style-type: none;
+}
+header nav ul li {
+  display: inline-block;
+  padding: 50px 35px 0 35px;
+}
+header nav ul li:hover {
+  display: inline-block;
+  color: #0065fc;
+  border-top: 2px solid #0065fc;
+}
+header nav ul li a {
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  text-decoration: none;
+  color: #0065fc;
+}
+header div > a {
+  text-decoration: none;
+  color: #0065fc;
+  padding: 50px 35px 0 35px;
+  margin-right: 35px;
+}
+
+/* ------------ Section ------------ */
+
+/* ------------ Section ------------ */
+
+/* ------------ Section ------------ */
+
+/* ------------ Section ------------ */
+
+/* ------------ Footer -------------- */
+footer {
+  background-color: #f2f2f2f2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+footer div {
+  margin-bottom: 35px;
+  margin-left: 10px;
+}
+footer h3 {
+  font-weight: bold;
+  padding: 30px 0 20px 0;
+}
+footer a {
+  text-decoration: none;
+  padding-bottom: 20px;
+}
+footer p {
+  padding-bottom: 20px;
+}
+/* ------------ Media Queries -------------- */
+/* ------------ Mobiles -------------- */
+@media all and (max-width: 501px) {
+  div#main_wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+  header div:last-child {
+    display: flex;
+    flex-direction: column;
+  }
+  header div > a {
+    order: -1;
+  }
+}
+/*  Footer  */
+
+/* ------------ Tablettes -------------- */
+@media all and (min-width: 481px) and (max-width: 768px) {
+  /* Vos règles CSS pour les mobiles ici */
+}
