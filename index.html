@@ -2,11 +2,14 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, minimum-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="CSS/styles.css" />
+
+    <!--  Fontawesome CDN -->
+    <script
+      src="https://kit.fontawesome.com/f7699c795c.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Place this data between the <head> tags of your website -->
     <title>Réservia</title>
@@ -58,6 +61,15 @@
       <section id="recherche">
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <p>En plein centre ville ou en pleine nature</p>
+        <form action="traitement.php" method="POST"></form>
+        <label for="recherche"><i class="fas fa-map-marker-alt"></i></label>
+        <input
+          type="text"
+          id="recherche"
+          name="recherche"
+          placeholder="Marseille, France"
+        />
+        <input type="submit" id="search" name="search" />
       </section>
       <section id="filtres"></section>
       <section id="populaires"></section>
