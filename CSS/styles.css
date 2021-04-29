@@ -59,7 +59,7 @@ header div > a {
 
 /* ------------ Rechercher ------------ */
 form {
-  margin: 60px 0 30px 0;
+  margin: 30px 0 30px 0;
   border-collapse: collapse;
 }
 label {
@@ -90,6 +90,35 @@ input {
   color: white;
   border: none;
   line-height: 38px;
+}
+
+/* ------------ Filtres ------------ */
+span .fa-stack-1x {
+  color: #0065fc;
+}
+span .fa-stack-2x {
+  color: #deebff;
+}
+#Filtres {
+  display: flex;
+  flex-wrap: wrap;
+}
+.filtre span {
+  position: relative;
+  top: -1px;
+  z-index: 1;
+}
+.filtre p {
+  display: inline-block;
+  border: 1px solid black;
+  position: relative;
+  text-transform: capitalize;
+  z-index: 0;
+  border: 1px solid #e1e0e0;
+  left: -30px;
+  padding: 3px 30px;
+  line-height: 34px;
+  border-radius: 0 50px 50px 0;
 }
 
 /* ------------ Logements ------------ */
