@@ -9,6 +9,7 @@
   font-family: "Raleway", sans-serif;
   font-size: 1em;
   color: #202020;
+  box-sizing: border-box;
 }
 /* -------- Main wrapper ----------- */
 div#main_wrapper {
