@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="CSS/styles.css" />
 
-    <!--  Fontawesome CDN -->
+    <!-- Font awesome -->
     <script
-      src="https://kit.fontawesome.com/f7699c795c.js"
+      src="https://kit.fontawesome.com/9f2f1bfbc6.js"
       crossorigin="anonymous"
     ></script>
 
@@ -58,19 +58,23 @@
         </div>
       </header>
       <!-- Corps de page -->
+      <!-- Section recherche-->
       <section id="recherche">
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <p>En plein centre ville ou en pleine nature</p>
-        <form action="traitement.php" method="POST"></form>
-        <label for="recherche"><i class="fas fa-map-marker-alt"></i></label>
-        <input
-          type="text"
-          id="recherche"
-          name="recherche"
-          placeholder="Marseille, France"
-        />
-        <input type="submit" value="Rechercher" />
+        <form action="traitement.php" method="POST">
+          <label for="recherche"><i class="fas fa-map-marker-alt"></i></label>
+          <input
+            type="text"
+            id="recherche"
+            name="recherche"
+            placeholder="Marseille, France"
+          />
+          <input type="submit" value="Rechercher" name="valide" id="valide" />
+        </form>
       </section>
+
+      <!-- Filtres -->
       <section id="filtres">
         <h2>Filtres</h2>
         <p>
