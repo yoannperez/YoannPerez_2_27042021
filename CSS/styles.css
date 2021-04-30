@@ -25,6 +25,7 @@ h2 {
 }
 h3 {
   font-size: 18px;
+  font-weight: 700;
 }
 a {
   text-decoration: none;
@@ -208,7 +209,9 @@ article.card a div.description {
 .star-off {
   color: #f2f2f2;
 }
-
+p.more {
+  margin: 40px;
+}
 /* ------ section Popuplaires ---------*/
 #populaires {
   /* border: 1px solid orange; */
@@ -227,7 +230,7 @@ div.pop {
 .populairesContainer {
   /* border: 1px solid green; */
   width: auto;
-  height: ;
+
   margin: 5px;
   padding: 10px;
   display: flex;
