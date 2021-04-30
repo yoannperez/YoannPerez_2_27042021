@@ -20,10 +20,11 @@ h1 {
   margin: 30px 4px 5px 4px;
 }
 h2 {
-  font-size: 20px;
+  font-size: 26px;
   margin: 30px 0;
 }
 h3 {
+  font-size: 18px;
 }
 a {
   text-decoration: none;
@@ -31,7 +32,7 @@ a {
 /* -------- Main wrapper ----------- */
 div#main_wrapper {
   margin: 0px 50px;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 /* ------------ Header ------------- */
@@ -147,78 +148,84 @@ span .fa-stack-2x {
 
 /* -------------------- HOMES -------------------- */
 #homes {
-  width: 99%;
-  display: flex;
-  flex-wrap: wrap;
+  width: 100%;
   margin: 0px auto;
-  gap: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  min-height: 625px;
+  border: 1px solid red;
 }
-.gray-section {
+section.gray-section {
   border-radius: 30px;
-  box-shadow: 2px 0 10px black;
-  padding: 40px;
+}
+.card:hover {
+  box-shadow: 2px 2px 2px black;
 }
 
 /* ------Section Hebergements --------*/
 #hebergements {
-  border: 1px solid violet;
+  /* border: 1px solid violet; */
+  width: 880px;
+  padding-right: 40px;
+  padding-left: 40px;
+  background-color: #f2f2f2;
 }
 /* -- Conteneur flex ---*/
 .articlesContainer {
-  border: 1px solid red;
-  width: 800px;
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+  width: 100%;
   display: flex;
-  justify-content: space-evenly;
-  align-content: space-around;
+  justify-content: space-around;
+  align-content: space-between;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 10px;
 }
 /* Paramétrage des cartes */
 [class^="card"] {
-  border: 1px solid green;
-  width: 245px;
-  height: 200px;
+  background-color: white;
+  width: 30%;
+  min-height: 200px;
+  min-width: 230px;
   border-radius: 15px;
   box-shadow: 0px 2px 5px black;
   text-align: left;
-  padding: 5px;
+  padding: 3px;
 }
 article.card img {
   border-radius: 15px 15px 0 0;
-  width: 100%;
+  width: 99%;
   height: 115px;
 }
+article.card a div.description {
+  padding-left: 15px;
+}
+.star-on {
+  color: #0065fc;
+}
+.star-off {
+  color: #f2f2f2;
+}
 
-/*
-#hebergements {
-  background-color: #f2f2f2f2;
-  height: 625px;
-  border-radius: 15px;
-  padding: 15px;
-}
-.article {
-  background-color: white;
-  width: 245px;
-  height: 200px;
-  padding: 5px;
-  border-radius: 15px;
-}
-.article:hover {
-  box-shadow: 2px 2px 2px black;
-}
-.article img {
-  
-}
-*/
 /* ------ section Popuplaires ---------*/
+#populaires {
+  /* border: 1px solid orange; */
+  width: 420px;
+  background-color: #f2f2f2;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+/* Titre section */
 div.pop {
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.rigth {
-  border: 1px solid green;
+.populairesContainer {
+  /* border: 1px solid green; */
   width: auto;
   height: ;
   margin: 5px;
@@ -230,7 +237,7 @@ div.pop {
 [class^="right-card"] {
   background-color: hotpink;
   widows: 100%;
-  height: 33%;
+  height: 145px;
   border-radius: 15px;
   box-shadow: 0px 2px 5px black;
   text-align: left;
@@ -322,7 +329,6 @@ footer div {
   margin-left: 10px;
 }
 footer h3 {
-  font-weight: bold;
   padding: 30px 0 20px 0;
 }
 footer a {
