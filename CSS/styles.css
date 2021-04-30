@@ -1,20 +1,37 @@
 /* ------------ Fonts -------------- */
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 /* ------------ Body --------------- */
-
+body {
+  width: 100%;
+  max-width: 1440px;
+  border: 1px solid red;
+  margin: 0 auto;
+}
 /* ----------- Generals ------------ */
 * {
   margin: 0;
   padding: 0;
   font-family: "Raleway", sans-serif;
-  font-size: 1em;
   color: #202020;
   box-sizing: border-box;
 }
+h1 {
+  font-size: 22px;
+  margin: 30px 4px 5px 4px;
+}
+h2 {
+  font-size: 20px;
+  margin: 30px 0;
+}
+h3 {
+}
+a {
+  text-decoration: none;
+}
 /* -------- Main wrapper ----------- */
 div#main_wrapper {
-  width: 98%;
-  margin: 3px auto;
+  margin: 0px 50px;
+  border: 1px solid blue;
 }
 
 /* ------------ Header ------------- */
@@ -22,6 +39,7 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-bottom: 30px;
 }
 header div:last-child {
   display: flex;
@@ -30,7 +48,8 @@ header div:last-child {
 }
 
 header img {
-  margin-top: 40px;
+  margin-top: 42px;
+  margin-left: 3px;
 }
 header ul {
   list-style-type: none;
@@ -60,7 +79,7 @@ header div > a {
 
 /* ------------ Rechercher ------------ */
 form {
-  margin: 30px 0 30px 0;
+  margin: 25px 0 30px 0;
   border-collapse: collapse;
 }
 label {
@@ -68,29 +87,33 @@ label {
   color: black;
   position: relative;
   left: 4px;
-  top: 0px;
+  top: -1px;
   border-radius: 10px 0 0 10px;
-  padding: 10px 10px;
+  padding: 16px 18px;
   margin-right: 0px;
 }
 
 input {
-  padding-left: 10px;
+  padding-left: 15px;
+  font-size: 20px;
+  font-weight: bold;
   padding-right: 10px;
   margin-left: 0;
-  line-height: 36px;
+  line-height: 50px;
   border: 1px solid #e1e0e0;
   border-radius: 0 60px 60px 0;
 }
 #valide {
   position: relative;
-
-  left: -20px;
+  left: -30px;
   border-radius: 0 10px 10px 0;
   background-color: #0065fc;
   color: white;
   border: none;
-  line-height: 38px;
+  line-height: 50px;
+}
+#Filters p.homes {
+  margin: 45px 0;
 }
 
 /* ------------ Filtres ------------ */
@@ -118,36 +141,54 @@ span .fa-stack-2x {
   border: 1px solid #e1e0e0;
   left: -30px;
   padding: 3px 30px;
-  line-height: 34px;
+  line-height: 35px;
   border-radius: 0 50px 50px 0;
 }
 
-/* ------------ Logements ------------ */
-/* Section */
-#logements {
+/* -------------------- HOMES -------------------- */
+#homes {
+  width: 99%;
   display: flex;
-}
-/* Section gauche */
-.left {
-  width: 60%;
-  height: 500px;
-  border: 2px solid red;
-  margin: 5px;
-  padding: 10px;
-  display: flex;
+  flex-wrap: wrap;
+  margin: 0px auto;
   gap: 10px;
+}
+.gray-section {
+  border-radius: 30px;
+  box-shadow: 2px 0 10px black;
+  padding: 40px;
+}
+
+/* ------Section Hebergements --------*/
+#hebergements {
+  border: 1px solid violet;
+}
+/* -- Conteneur flex ---*/
+.articlesContainer {
+  border: 1px solid red;
+  width: 800px;
+  display: flex;
   justify-content: space-evenly;
   align-content: space-around;
   flex-wrap: wrap;
+  gap: 30px;
 }
-[class^="card-"] {
-  background-color: rgb(16, 105, 212);
-  width: 30%;
-  height: 45%;
+/* Paramétrage des cartes */
+[class^="card"] {
+  border: 1px solid green;
+  width: 245px;
+  height: 200px;
   border-radius: 15px;
   box-shadow: 0px 2px 5px black;
-  text-align: center;
+  text-align: left;
+  padding: 5px;
 }
+article.card img {
+  border-radius: 15px 15px 0 0;
+  width: 100%;
+  height: 115px;
+}
+
 /*
 #hebergements {
   background-color: #f2f2f2f2;
@@ -166,23 +207,27 @@ span .fa-stack-2x {
   box-shadow: 2px 2px 2px black;
 }
 .article img {
-  border-radius: 15px 15px 0 0;
-  width: 225px;
-  height: 115px;
+  
 }
 */
-/* section droite */
+/* ------ section Popuplaires ---------*/
+div.pop {
+  border: 1px solid yellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .rigth {
-  width: 40%;
-  height: 500px;
-  border: 2px solid green;
+  border: 1px solid green;
+  width: auto;
+  height: ;
   margin: 5px;
   padding: 10px;
   display: flex;
   gap: 10px;
   flex-direction: column;
 }
-[class^="right-card-"] {
+[class^="right-card"] {
   background-color: hotpink;
   widows: 100%;
   height: 33%;
@@ -192,25 +237,18 @@ span .fa-stack-2x {
   display: flex;
   flex-direction: row;
 }
-.right-card-1 img {
+.right-card img {
   height: 100%;
   width: 150px;
   border-radius: 15px 0 0 15px;
 }
-.right-card-1 .text {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  padding-left: 5px;
-  overflow: hidden;
-}
 
-/* ------------ Section Activités ------------ */
+/* ---------------- Section Activités --------------- */
 section {
   margin: 20px 0;
 }
 .bottom {
-  width: 100%;
+  width: 80%;
   height: 400px;
   border: 2px solid red;
   margin: 5px;
