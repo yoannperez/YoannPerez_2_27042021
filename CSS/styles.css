@@ -235,16 +235,19 @@ div.titlePop {
 }
 
 /* -----Conteneur flex ------- */
-.populairesContainer {
-  /* border: 1px solid green; */
+section.populairesContainer {
+  border: 1px solid green;
   width: 100%;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   gap: 10px;
-  flex-direction: column;
+
+  
 }
 /* ----- Config Article ------- */
-.article-flex {
+article.article-flex {
   background-color: white;
   display: flex;
   flex-direction: row;
@@ -257,13 +260,13 @@ div.titlePop {
   padding: 5px;
 }
 
-section.populairesContainer div.article-flex img {
+section.populairesContainer article.article-flex img {
   object-fit: cover;
   height: 135px;
   width: 145px;
   border-radius: 15px 0 0 15px;
 }
-.populairesContainer div.article-flex  div.description {
+section.populairesContainer article.article-flex  div.description {
   padding: 10px 0 10px 20px;
   display: flex;
   flex-direction: column;
@@ -271,13 +274,13 @@ section.populairesContainer div.article-flex img {
   width: auto;
   justify-content: center;
 }
-.populairesContainer div.article-flex  div.description div.descriptionTitle{
+section.populairesContainer article.article-flex  div.description div.descriptionTitle{
   height: 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
-.populairesContainer div.article-flex  div.description div.descriptionStars{
+section.populairesContainer article.article-flex  div.description div.descriptionStars{
   height: 50%;
   display: flex;
   flex-direction: column;
