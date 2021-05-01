@@ -4,7 +4,7 @@
 body {
   width: 100%;
   max-width: 1440px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: 0 auto;
 }
 /* ----------- Generals ------------ */
@@ -153,13 +153,9 @@ span .fa-stack-2x {
   margin: 0px auto;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
-
+  flex-wrap: wrap-reverse;
   min-height: 625px;
-  border: 1px solid red;
-}
-section.gray-section {
-  border-radius: 30px;
+  /* border: 1px solid red; */
 }
 .card:hover {
   box-shadow: 2px 2px 2px black;
@@ -172,6 +168,7 @@ section.gray-section {
   padding-right: 40px;
   padding-left: 40px;
   background-color: #f2f2f2;
+  border-radius: 30px;
 }
 /* -- Conteneur flex ---*/
 .articlesContainer {
@@ -196,6 +193,7 @@ section.gray-section {
   padding: 3px;
 }
 article.card img {
+  object-fit: cover;
   border-radius: 15px 15px 0 0;
   width: 99%;
   height: 115px;
@@ -213,47 +211,73 @@ p.more {
   margin: 40px;
 }
 /* ------ section Popuplaires ---------*/
+/* ------ section Popuplaires ---------*/
+/* ------ section Popuplaires ---------*/
+/* ------ section Popuplaires ---------*/
+/* ------ section Popuplaires ---------*/
+/* ------ section Popuplaires ---------*/
+/* ------ section Popuplaires ---------*/
+/* ------ section Popuplaires ---------*/
+
 #populaires {
   /* border: 1px solid orange; */
   width: 420px;
   background-color: #f2f2f2;
-  padding-right: 40px;
-  padding-left: 40px;
+  border-radius: 30px;
 }
 /* Titre section */
-div.pop {
-  /* border: 1px solid yellow; */
+div.titlePop {
+  /* border: 1px solid rgb(204, 52, 141); */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+
+/* -----Conteneur flex ------- */
 .populairesContainer {
   /* border: 1px solid green; */
-  width: auto;
-
-  margin: 5px;
-  padding: 10px;
+  width: 100%;
   display: flex;
+  flex-direction: row;
   gap: 10px;
   flex-direction: column;
 }
-[class^="right-card"] {
-  background-color: hotpink;
-  widows: 100%;
+/* ----- Config Article ------- */
+.article-flex {
+  /* background-color: rgb(105, 255, 158); */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  min-width: 345px;
   height: 145px;
   border-radius: 15px;
   box-shadow: 0px 2px 5px black;
-  text-align: left;
-  display: flex;
-  flex-direction: row;
+  padding: 5px;
 }
-.right-card img {
-  height: 100%;
-  width: 150px;
+
+section.populairesContainer div.article-flex img {
+  object-fit: cover;
+  height: 135px;
+  width: 145px;
   border-radius: 15px 0 0 15px;
+}
+section.populairesContainer div.article-flex div.text {
+  /* background-color: hotpink; */
+  width: 50px;
 }
 
 /* ---------------- Section Activités --------------- */
+/* ---------------- Section Activités --------------- */
+/* ---------------- Section Activités --------------- */
+/* ---------------- Section Activités --------------- */
+/* ---------------- Section Activités --------------- */
+/* ---------------- Section Activités --------------- */
+/* ---------------- Section Activités --------------- */
+/* ---------------- Section Activités --------------- */
+/* ---------------- Section Activités --------------- */
+/* ---------------- Section Activités --------------- */
+
 section {
   margin: 20px 0;
 }
