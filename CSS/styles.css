@@ -21,7 +21,7 @@ h1 {
 }
 h2 {
   font-size: 26px;
-  margin: 30px 0;
+  margin: 42px 0;
 }
 h3 {
   font-size: 18px;
@@ -178,16 +178,15 @@ span .fa-stack-2x {
   justify-content: space-between;
   flex-wrap: wrap-reverse;
   min-height: 625px;
-  /* border: 1px solid red; */
+  gap: 40px
+  
 }
-/* .card:hover {
-  box-shadow: 2px 2px 2px black;
-} */
+
 
 /* ------Section Hebergements --------*/
 #hebergements {
   /* border: 1px solid violet; */
-  width: 880px;
+  width: 890px;
   padding-right: 40px;
   padding-left: 40px;
   background-color: #f2f2f2;
@@ -202,21 +201,23 @@ span .fa-stack-2x {
   justify-content: space-around;
   align-content: space-between;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 20px;
 }
 /* Paramétrage des cartes */
 [class^="card"] {
+  height: 200px;
+  width: 245px;
+  /* border: 1px solid red; */
   background-color: white;
   width: 250px;
-  
   text-align: left;
-  padding: 3px;
+  padding: 5px;
 }
 article.card img {
   object-fit: cover;
   border-radius: 15px 15px 0 0;
-  width: 99%;
-  height: 115px;
+  width: 100%;
+  height: 114px;
 }
 article.card a div.description {
   padding-left: 15px;
@@ -241,7 +242,7 @@ p.more {
 
 #populaires {
   /* border: 1px solid orange; */
-  width: 420px;
+  width: 410px;
   background-color: #f2f2f2;
   border-radius: 30px;
   padding: 0px 40px 0px 40px;
@@ -266,7 +267,7 @@ section.populairesContainer {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  gap: 10px;
+  gap: 32px;
 
   
 }
@@ -278,7 +279,7 @@ article.article-flex {
   justify-content: flex-start;
   flex-wrap: nowrap;
   min-width: 345px;
-  height: 145px;
+  height: 144px;
   padding: 5px;
 }
 
