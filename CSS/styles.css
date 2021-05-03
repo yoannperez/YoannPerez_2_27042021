@@ -27,6 +27,15 @@ h3 {
   font-size: 18px;
   font-weight: 700;
 }
+figure figcaption{
+  padding: 15px 15px;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  
+}
 a {
   text-decoration: none;
 }
@@ -328,13 +337,7 @@ section.populairesContainer article.article-flex  div.description div.descriptio
   
   }
 
-figcaption{
-  padding: 15px 15px;
-  font-size: 20px;
-  font-weight: 600;
-  text-decoration: none;
-  font-style: normal;
-}
+
 .activityCardContaner:hover {
   background-color: #deebff;
   box-shadow: 0px 10px 20px black;
