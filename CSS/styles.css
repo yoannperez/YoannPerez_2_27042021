@@ -60,48 +60,51 @@ div#main_wrapper {
 }
 
 /* ------------ Header ------------- */
-header {
+nav {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-bottom: 30px;
-}
-header div:last-child {
-  display: flex;
+  width: auto;
+  min-width: 300px;
+  justify-content: flex-end;
   flex-wrap: nowrap;
-  flex-direction: row;
+  margin-bottom: 30px;
+  /* background-color: brown; */
 }
-
 header img {
-  margin-top: 42px;
-  margin: 3px;
-}
-header ul {
+  float: left;
+  margin-top: 46px;
+  }
+a.log {
+    float: right;
+    text-decoration: none;
+    /* background-color: chartreuse; */
+    color: #0065fc;
+    padding: 50px 35px 0 35px;
+    margin-right: 35px;
+  }
+header nav ul {
   list-style-type: none;
 }
 header nav ul li {
   display: inline-block;
+  text-align: right;
   padding: 50px 35px 0 35px;
 }
-header nav ul li:hover {
-  display: inline-block;
-  color: #0065fc;
-  /* border-top: 2px solid #0065fc; */
-}
+
 header nav ul li a {
   text-decoration: none;
 }
+
+
+/* Les plus */
 header nav ul li a:hover {
   text-decoration: none;
   color: #0065fc;
 }
-header div > a {
-  text-decoration: none;
+header nav ul li:hover {
+  display: inline-block;
   color: #0065fc;
-  padding: 50px 35px 0 35px;
-  margin-right: 35px;
+  border-top: 2px solid #0065fc;
 }
-
 /* ------------ Rechercher ------------ */
 form {
   margin: 25px 0 30px 0;
