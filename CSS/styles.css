@@ -48,6 +48,7 @@ a {
 .activityCardContainer:hover, .card:hover,article.article-flex:hover {
     background-color: #deebff55;
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.757);
+    transition: 0.3s;
     /* width: 100%;
     height: auto; */
   }
