@@ -148,14 +148,24 @@ span .fa-stack-1x {
 span .fa-stack-2x {
   color: #deebff;
 }
+#filterSection > h2{
+  /* background-color: blueviolet; */
+  display: inline-block;
+}
 #Filtres {
-  display: flex;
+  /* background-color: rgb(60, 149, 97); */
+  display: inline-flex;
   flex-wrap: wrap;
 }
+
 .filtre span {
   position: relative;
   top: -1px;
   z-index: 1;
+}
+.filtre{
+  padding: 0px;
+  margin-bottom: 10px;
 }
 .filtre p {
   display: inline-block;
