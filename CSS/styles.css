@@ -265,6 +265,7 @@ article.article-flex {
   padding: 5px;
 }
 
+
 section.populairesContainer article.article-flex img {
   object-fit: cover;
   height: 135px;
@@ -334,8 +335,8 @@ figcaption{
   text-decoration: none;
   font-style: normal;
 }
-.activityCardContaner:hover{
-  background-color: tomato;
+.activityCardContaner:hover {
+  background-color: #deebff;
   box-shadow: 0px 10px 20px black;
   width: 102%;
   height: auto;
