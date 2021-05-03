@@ -311,27 +311,52 @@ section.populairesContainer article.article-flex  div.description div.descriptio
   margin: 30px 0px;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  justify-content: space-evenly;
   flex-wrap: wrap;
   gap: 10px;
 }
 
 [class^="b-card-"] {
   background-color: rgb(15, 24, 200);
-  width: 50px;
+  width: 300px;
   height: 100%;
   border: 1px solid black;
   border-radius: 15px;
-  box-shadow: 0px 2px 5px black;
-  text-align: center;
+  /* box-shadow: 0px 2px 5px black; */
+  text-align: left;
   flex-grow: 1;
+  
 }
-.rififi{
-  box-sizing: content-box;
-  border: 10px solid green;
+div.rififi{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  
+  
+  /* border: 10px solid green; */
 }
-figure{
+.ffff img{
+  width: auto;
+  height: 75%;
+ object-fit: contain;
+ 
+ border: 1px solid green;
+ 
+ 
+}
+div.legende figcaption{
+  display: block;
+  font-size: 20px;
+  height: 56px;
+  padding: 25px;
+ 
+  
+  
+  
+  
+  background-color: rgb(204, 49, 19);
+}
+/* figure{
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -340,14 +365,16 @@ figure{
 #activites div.activitiesContainer figure img{
   border: 2px solid red;
   object-fit: none;
+  align-content: center;
   
-  height: 75%;
+  height: 300px;
+  flex: 3;
 
 }
 #activites div.activitiesContainer figure figcaption{
-  padding: 0px 0;
+  
   flex: 1;
-}
+} */
 /* Card 2 */
 div.b-card-2 {
   display: flex;
