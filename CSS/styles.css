@@ -55,11 +55,15 @@ a {
 
 /* -------- Main wrapper ----------- */
 div#main_wrapper {
-  margin: 0px 50px;
+  
+  
   /* border: 1px solid blue; */
 }
 
 /* ------------ Header ------------- */
+header{
+  margin: 0px 0px;
+}
 nav {
   display: flex;
   width: auto;
