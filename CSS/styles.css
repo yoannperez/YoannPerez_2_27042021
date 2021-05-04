@@ -143,12 +143,14 @@ input {
   
   font-size: 18px;
   font-weight: bold;
-  padding: 0px 5px 0 16px; 
+  padding: 0px 10px 0 16px; 
   line-height: 50px;
   border: 1px solid #e1e0e0;
   border-radius: 0 0px 0px 0;
 }
 #valide {
+  position: relative;
+  left: -5px;
   border-radius: 0 15px 15px 0;
   background-color: #0065fc;
   padding: 0px 20px;
@@ -156,6 +158,17 @@ input {
   border: none;
   line-height: 50px;
 }
+#ok{
+  display: none;
+  border-radius: 15px;
+  background-color: #0065fc;
+  border: none;
+  position: relative;
+  left: -10px;
+}
+.fa-search{color: white;
+padding: 10px 15px;}
+
 #Filters p.homes {
   margin: 50px 0;
 }
