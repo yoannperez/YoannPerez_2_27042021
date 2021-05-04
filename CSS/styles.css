@@ -497,7 +497,7 @@ footer p {
 /* Global settings */
 h1 {
   font-size: 22px;
-  margin: 30px 20px 4px 20px;
+  margin: 30px 20px 4px 0px;
 }
 h2 {
   font-size: 26px;
