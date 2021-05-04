@@ -42,12 +42,12 @@ a {
 /* Unified articles styles */
 .activityCardContainer, .card, article.article-flex{
   border-radius: 15px;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.49);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.49);
   }
 /* Unified Hovering style */
 .activityCardContainer:hover, .card:hover,article.article-flex:hover {
-    background-color: #deebff55;
-    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.757);
+    background-color: #deebff35;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.613);
     transition: 0.3s;
     /* width: 100%;
     height: auto; */
@@ -508,7 +508,7 @@ nav{
   header nav ul li a {
     text-decoration: none;
   }
-/* Section populaires */
+/* ------------Section Populaires --------------*/
   #populaires {
     /* border: 1px solid orange; */
     width: 100%;
@@ -598,7 +598,77 @@ footer {
 /* ---------------------------------------- */
 /* ------------ Macbook 1280 -------------- */
 @media all and (max-width: 1280px) {
+/* ------------Global Settings --------------*/
+/* -------- Main wrapper ----------- */
+div#main_wrapper {
+  margin: 0 20px;
+  
+  /* border: 1px solid blue; */
+}
 
-
+  /* ------------Section Populaires --------------*/
+  #populaires {
+    /* border: 1px solid orange; */
+    width: 100%;
+    height: auto;
+    background-color: #f2f2f2;
+    border-radius: 30px;
+    padding: 0px 20px 20px 20px;
+  }
+  section.populairesContainer {
+    /* border: 1px solid green; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    gap: 32px;
+  
+    
+  }
+  /* ------------Section Hebergements --------------*/
+  #hebergements {
+    /* border: 1px solid violet; */
+    width: 100%;
+    padding-right: 40px;
+    padding: 0 40px;
+    background-color: #f2f2f2;
+    border-radius: 30px;
+  }
+/* -- Conteneur flex ---*/
+.articlesContainer {
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+/* Paramétrage des cartes */
+[class^="card"] {
+  height: 200px;
+  width: 245px;
+  /* border: 1px solid red; */
+  background-color: white;
+  width: 250px;
+  /* text-align: s; */
+  padding: 5px 5px 0 5px;
+}
+article.card img {
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+  width: 100%;
+  height: 114px;
+}
+article.card a div.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: rgb(23, 248, 83); */
+  height: 80px;
+  padding: 0 13px 10px 10px;
+}
 
 }
