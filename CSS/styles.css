@@ -88,6 +88,7 @@ a.log {
     color: #0065fc;
     font-weight: 700;
     padding: 50px 27px 0 20px;
+    margin-right: 50px;
     
   }
 header nav ul {
@@ -208,7 +209,7 @@ span .fa-stack-2x {
   justify-content: space-between;
   flex-wrap: wrap-reverse;
   min-height: 625px;
-  gap: 40px
+  gap: 31px
   
 }
 
@@ -277,7 +278,7 @@ p.more {
 
 #populaires {
   /* border: 1px solid orange; */
-  width: 410px;
+  width: 419px;
   background-color: #f2f2f2;
   border-radius: 30px;
   padding: 0px 40px 0px 40px;
