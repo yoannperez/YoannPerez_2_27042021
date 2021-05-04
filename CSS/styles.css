@@ -694,13 +694,15 @@ article.card img {
 }
 
 /*  Footer  */
-footer {
-  background-color: #f2f2f2f2;
+footer div.container{
   display: flex;
+  width: 80%;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  
   flex-direction: column;
-  justify-content: space-around;
-  margin-top: 50px;
-  padding: 0 0 0 20px;
+  /* flex-wrap: nowrap; */
+  justify-content: space-between;
 }
 /* End mobil media queries */
 }
