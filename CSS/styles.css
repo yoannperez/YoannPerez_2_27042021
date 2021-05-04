@@ -505,7 +505,7 @@ h2 {
 }
 body {
   width: 100%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: 0 auto;
 }
   main.main_wrapper {
