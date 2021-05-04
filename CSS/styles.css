@@ -60,7 +60,7 @@ a {
     transition: 0.3s;
   }
 /* -------- Main wrapper ----------- */
-main#main_wrapper {
+main.main_wrapper {
   margin: 0 50px;
   
   /* border: 1px solid blue; */
@@ -497,16 +497,21 @@ footer p {
 /* Global settings */
 h1 {
   font-size: 22px;
-  margin: 30px 20px 4px 20px;
+  margin: 30px 20px 4px 0px;
 }
 h2 {
   font-size: 26px;
   margin: 47px 0 25px 10px;
 }
-  div#main_wrapper {
-    width: 100%;
-    height:fit-content;
-    margin: 0 auto;
+body {
+  width: 100%;
+  border: 1px solid red;
+  margin: 0 auto;
+}
+  main.main_wrapper {
+    margin: 0 20px;
+    border: 1px solid blue;
+    
   }
   /* Header Settings */
   header img {
@@ -552,6 +557,47 @@ nav{
   header nav ul li a {
     text-decoration: none;
   }
+/* ------------Section Recherche --------------*/
+form {
+  margin: 18px auto;
+  display: flex;
+  margin-bottom: 0;
+  
+}  
+section#filterSection > h2{
+  margin-top: 30px;
+  margin-left: 0;
+  margin-bottom: 12px;
+}
+#valide {
+    display: none;
+  }
+  #ok{
+    display: initial;
+    border-radius: 15px;
+    background-color: #0065fc;
+    border: none;
+    position: relative;
+    left: -10px;
+  } 
+  
+/* ------------Section Filtres --------------*/
+.filtre{
+  /* width: fit-content;
+  display: flex;
+  border: 2px solid #e1e0e0;
+  align-items: center;
+  height: 50px; */
+  margin: 0px 10px 13px 0px ;
+  /* border-radius: 50px; */
+}
+.filtre p {
+  /* display: inline-block;
+  position: relative;
+  text-transform: capitalize; */
+  left: -10px;
+  padding-right: 10px;
+}
 /* ------------Section Populaires --------------*/
   #populaires {
     /* border: 1px solid orange; */
@@ -561,6 +607,18 @@ nav{
     border-radius: 0px;
     padding: 0px 20px 20px 20px;
   }
+  article.article-flex {
+    /* background-color: rgb(189, 14, 14); */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    min-width: 334px;
+    height: 147px;
+    /* padding: 5px; */
+  }
+  section.populairesContainer {
+  gap:10px;}
 /* ------------Section Hebergements --------------*/
 #hebergements {
   /* border: 1px solid violet; */
