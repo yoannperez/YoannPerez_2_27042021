@@ -69,7 +69,6 @@ div#main_wrapper {
 nav {
   display: flex;
   width: auto;
-  
   justify-content: flex-end;
   flex-wrap: nowrap;
   margin-bottom: 30px;
@@ -81,7 +80,7 @@ header img {
   margin-left: 50px;
   
   }
-a.log {
+a.login {
     float: right;
     text-decoration: none;
     /* background-color: chartreuse; */
@@ -90,7 +89,11 @@ a.log {
     padding: 50px 27px 0 20px;
     margin-right: 50px;
     
-  }
+}
+a.login:hover {
+  text-shadow: 1px 1px 5px #0065fc55;
+  
+}
 header nav ul {
   list-style-type: none;
 }
@@ -115,6 +118,7 @@ header nav ul li a:hover {
 header nav ul li:hover {
   display: inline-block;
   color: #0065fc;
+  padding: 48px 35px 0 35px;
   border-top: 2px solid #0065fc;
 }
 /* ------------ Rechercher ------------ */
@@ -209,7 +213,7 @@ span .fa-stack-2x {
   justify-content: space-between;
   flex-wrap: wrap-reverse;
   min-height: 625px;
-  gap: 31px
+  gap: 30px
   
 }
 
