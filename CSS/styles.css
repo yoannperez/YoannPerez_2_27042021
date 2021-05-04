@@ -215,16 +215,23 @@ div#Filtres {
   text-transform: capitalize;
   padding-right: 20px;
 }
-p.homes{
-  padding-top: 22px;
-}
 span .fa-stack-1x {
   color: #0065fc;
 }
 span .fa-stack-2x {
   color: #deebff;
 }
-
+p.homes{
+  padding-top: 22px;
+}
+p.homes i{
+  color: #0065fc;
+  border: 1px solid #f2f2f2;
+  font-size:12px ;
+  border-radius: 45px;
+  padding: 6px 10px;
+  margin-right: 5px;
+}
 /* -------------------- HOMES -------------------- */
 #homes {
   width: 100%;
