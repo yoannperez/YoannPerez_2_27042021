@@ -60,7 +60,7 @@ a {
     transition: 0.3s;
   }
 /* -------- Main wrapper ----------- */
-div#main_wrapper {
+main#main_wrapper {
   margin: 0 50px;
   
   /* border: 1px solid blue; */
