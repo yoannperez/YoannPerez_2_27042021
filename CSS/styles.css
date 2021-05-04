@@ -18,7 +18,7 @@ body {
 }
 h1 {
   font-size: 22px;
-  margin: 60px 4px 4px 0px;
+  margin: 60px 4px 6px 0px;
 }
 h2 {
   font-size: 26px;
@@ -27,6 +27,7 @@ h2 {
 h3 {
   font-size: 18px;
   font-weight: 600;
+  margin-bottom: 5px;
 }
 figure figcaption{
   padding: 15px 15px;
@@ -140,17 +141,17 @@ label {
 
 input {
   
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
-  padding: 0px 10px;
+  padding: 0px 5px 0 16px; 
   line-height: 50px;
   border: 1px solid #e1e0e0;
   border-radius: 0 0px 0px 0;
 }
 #valide {
-  border-radius: 0 10px 10px 0;
+  border-radius: 0 15px 15px 0;
   background-color: #0065fc;
-  padding: 0px 10px;
+  padding: 0px 20px;
   color: white;
   border: none;
   line-height: 50px;
@@ -332,32 +333,30 @@ article.article-flex {
 section.populairesContainer article.article-flex img {
   object-fit: cover;
   height: 135px;
-  width: 145px;
+  width: 127px;
   border-radius: 15px 0 0 15px;
 }
 section.populairesContainer article.article-flex  div.description {
-  padding: 10px 0 10px 20px;
+  padding: 14px 0 0px 20px;
   display: flex;
   flex-direction: column;
-  background-color: tomato;
+  /* background-color: tomato; */
   width: auto;
-  justify-content: space-around;
   align-content:space-between;
-  
 }
 section.populairesContainer article.article-flex  div.description div.descriptionTitle{
-  height: 50%;
+  /* background-color:greenyellow; */
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  padding-bottom: 40px;
+  justify-content: space-between;
+  
 }
 section.populairesContainer article.article-flex  div.description div.descriptionStars{
-  height: 50%;
+  
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  padding-top: 0px;
+  padding-top: 25px;
 }
 
 /* ---------------- Section Activités --------------- */
