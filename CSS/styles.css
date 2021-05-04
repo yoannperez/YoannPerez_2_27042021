@@ -189,6 +189,7 @@ div#Filtres {
   display: inline-flex;
   flex-wrap: wrap;
   position: relative;
+
   }
 .filtre{
   width: fit-content;
@@ -206,12 +207,16 @@ div#Filtres {
   margin: 0;
   padding: 0;
   font-size: 1.6em;
+  
 }
 .filtre p {
   display: inline-block;
   position: relative;
   text-transform: capitalize;
   padding-right: 20px;
+}
+p.homes{
+  padding-top: 22px;
 }
 span .fa-stack-1x {
   color: #0065fc;
