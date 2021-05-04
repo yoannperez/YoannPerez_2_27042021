@@ -3,7 +3,7 @@
 /* ------------ Body --------------- */
 body {
   width: 100%;
-  max-width: 100%;
+  max-width: 1440px;
   /* border: 1px solid red; */
   margin: 0 auto;
 }
@@ -426,6 +426,7 @@ footer {
   background-color: #f2f2f2f2;
   display: flex;
   flex-direction: row;
+  /* flex-wrap: nowrap; */
   justify-content: space-around;
 }
 footer div {
@@ -572,17 +573,32 @@ article.card img {
   height: 135px;
   object-fit:cover;
 }
-}
+
 /*  Footer  */
 footer {
-  background-color: #f2f2f2f2;
+  /* background-color: #f2f2f2f2; */
+  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin-top:50px;
+  margin-top: 50px;
   padding: 0 0 0 20px;
+}
+/* End mobil media queries */
 }
 /* ------------ Tablettes -------------- */
 @media all and (min-width: 481px) and (max-width: 768px) {
-  /* Vos règles CSS pour les mobiles ici */
+  /* End Tablets 481 - 768 px */
+}
+
+
+
+/* ---------------------------------------- */
+/* ---------------------------------------- */
+/* ---------------------------------------- */
+/* ------------ Macbook 1280 -------------- */
+@media all and (max-width: 1280px) {
+
+
+
 }
