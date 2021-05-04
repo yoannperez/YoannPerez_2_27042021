@@ -221,16 +221,20 @@ span .fa-stack-1x {
 span .fa-stack-2x {
   color: #deebff;
 }
-p.homes{
+div.homes{
   padding-top: 22px;
+  display: flex;
 }
-p.homes i{
+div.homes i{
   color: #0065fc;
   border: 1px solid #f2f2f2;
   font-size:12px ;
   border-radius: 45px;
   padding: 6px 10px;
   margin-right: 5px;
+}
+div.homes p{
+  
 }
 /* -------------------- HOMES -------------------- */
 #homes {
