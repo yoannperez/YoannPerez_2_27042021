@@ -509,12 +509,12 @@ h2 {
 }
 body {
   width: 100%;
-  /* border: 1px solid red; */
+  border: 1px solid red;
   margin: 0 auto;
 }
   main.main_wrapper {
     margin: 0 20px;
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     
   }
   /* Header Settings */
