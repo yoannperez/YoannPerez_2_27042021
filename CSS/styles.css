@@ -4,7 +4,7 @@
 body {
   width: 100%;
   max-width: 1440px;
-  /* border: 1px solid red; */
+  border: 1px solid rgb(255, 221, 0);
   margin: 0 auto;
 }
 /* ----------- Generals ------------ */
@@ -62,10 +62,16 @@ a {
 /* -------- Main wrapper ----------- */
 main.main_wrapper {
   margin: 0 50px;
-  
   /* border: 1px solid blue; */
 }
-
+div.wrapper {
+  margin: 0 50px;
+  border: 1px solid rgb(255, 0, 0);
+}
+div.home-wrapper {
+  margin: 0 50px;
+  border: 1px solid rgb(255, 0, 0);
+}
 /* ------------ Header ------------- */
 
 nav {
