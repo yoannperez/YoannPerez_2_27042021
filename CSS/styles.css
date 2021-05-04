@@ -14,6 +14,7 @@ body {
   font-family: "Raleway", sans-serif;
   color: #202020;
   box-sizing: border-box;
+  letter-spacing: -0.5px;
 }
 h1 {
   font-size: 22px;
@@ -25,7 +26,7 @@ h2 {
 }
 h3 {
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 600;
 }
 figure figcaption{
   padding: 15px 15px;
