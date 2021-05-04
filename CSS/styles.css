@@ -465,25 +465,32 @@ section.populairesContainer article.article-flex  div.description div.descriptio
 /* ------------ Footer -------------- */
 footer {
   background-color: #f2f2f2f2;
+  padding: 0 50px;
+  }
+footer div.container{
   display: flex;
+  width: 80%;
+  
   flex-direction: row;
   /* flex-wrap: nowrap; */
-  justify-content: space-around;
+  justify-content: space-between;
 }
 footer div {
   margin-bottom: 35px;
+  /* background-color: blueviolet; */
   /* margin-s: 10px; */
 }
 footer h3 {
-  padding: 30px 0 20px 0;
+  padding: 45px 0 12px 0;
 }
-footer a {
-  text-decoration: none;
-  padding-bottom: 20px;
+footer ul{
+  list-style-type: none;
 }
-footer p {
-  padding-bottom: 20px;
+footer ul li{
+  font-size: 16px;
+  margin-bottom: 10px;
 }
+
 /* --------------------------- Media Queries -------------------- */
 /* --------------------------- Media Queries -------------------- */
 /* --------------------------- Media Queries -------------------- */
