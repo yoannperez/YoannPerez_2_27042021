@@ -21,7 +21,7 @@ h1 {
 }
 h2 {
   font-size: 26px;
-  margin: 47px 0 25px 0;
+  margin: 47px 10px 25px 0;
 }
 h3 {
   font-size: 18px;
@@ -52,7 +52,11 @@ a {
     /* width: 100%;
     height: auto; */
   }
-
+  .filtre:hover{
+    background-color: #deebff89;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.613);
+    transition: 0.3s;
+  }
 /* -------- Main wrapper ----------- */
 div#main_wrapper {
   margin: 0 50px;
@@ -150,47 +154,50 @@ input {
 }
 
 /* ------------ Filtres ------------ */
+
+section#filterSection{ 
+  /* background-color: rgb(176, 44, 196); */
+  padding: 0 0 40px 0;
+}
+section#filterSection > h2{
+  /* background-color: blueviolet; */
+  display: inline-block;
+  vertical-align:bottom;
+}
+div#Filtres {
+  /* background-color: rgb(60, 149, 97); */
+  display: inline-flex;
+  flex-wrap: wrap;
+  position: relative;
+  }
+.filtre{
+  width: fit-content;
+  display: flex;
+  border: 2px solid #e1e0e0;
+  align-items: center;
+  height: 50px;
+  margin: 0px 20px 13px 0px ;
+  border-radius: 50px;
+}
+.filtre span {
+  
+  position: relative;
+  left: -10px;
+  margin: 0;
+  padding: 0;
+  font-size: 1.6em;
+}
+.filtre p {
+  display: inline-block;
+  position: relative;
+  text-transform: capitalize;
+  padding-right: 20px;
+}
 span .fa-stack-1x {
   color: #0065fc;
 }
 span .fa-stack-2x {
   color: #deebff;
-}
-#filterSection{ padding: 0 0 40px 0;}
-#filterSection > h2{
-  /* background-color: blueviolet; */
-  display: inline-block;
-}
-#Filtres {
-  /* background-color: rgb(60, 149, 97); */
-  display: inline-flex;
-  flex-wrap: wrap;
-  margin-bottom: 20px;
-}
-section#filterSection h2{ 
-  margin-top: 31px;
-}
-
-.filtre span {
-  position: relative;
-  top: -2px;
-  z-index: 1;
-}
-.filtre{
-  padding: 0px;
-  margin-bottom: 10px;
-}
-.filtre p {
-  display: inline-block;
-  border: 1px solid black;
-  position: relative;
-  text-transform: capitalize;
-  z-index: 0;
-  border: 2px solid #e1e0e0;
-  left: -30px;
-  padding: 2px 30px;
-  line-height: 35px;
-  border-radius: 0 50px 50px 0;
 }
 
 /* -------------------- HOMES -------------------- */
