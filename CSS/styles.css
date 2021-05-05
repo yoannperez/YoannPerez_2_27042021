@@ -479,7 +479,7 @@ section.populairesContainer article.article-flex  div.description div.descriptio
 /* ------------ Footer -------------- */
 footer {
   background-color: #f2f2f2f2;
-  padding: 0 50px;
+  padding: 0 0 0 50px;
   }
 footer div.container{
   display: flex;
@@ -503,6 +503,7 @@ footer ul{
 footer ul li{
   font-size: 16px;
   margin-bottom: 10px;
+  letter-spacing: -0.5;
 }
 
 /* --------------------------- Media Queries -------------------- */
@@ -732,16 +733,20 @@ article.card img {
 }
 
 /*  Footer  */
+footer {
+  background-color: #f2f2f2f2;
+  padding: 10px 0 40px 50px;
+  }
 footer div.container{
-  display: flex;
-  width: 80%;
-  margin-bottom: 0;
-  padding-bottom: 0;
   
   flex-direction: column;
-  /* flex-wrap: nowrap; */
-  justify-content: space-between;
 }
+footer div {
+  margin-bottom: 0px;}
+  footer h3 {
+    padding: 35px 0 12px 0;
+  }
+
 /* End mobil media queries End Mobils -> 576px*/
 }
 /* ------------ Tablettes 576 -> 767 ------------------------- */
@@ -920,7 +925,7 @@ background-color: #fff;
 border-radius: 0px;
 }
 .articlesContainer{
-gap: 10px;
+gap: 20px;
 }
 /* Paramétrage des cartes */
 [class^="card"] {
@@ -978,18 +983,20 @@ margin-left: 20px;
   object-fit:cover;
 }
 
-/*  Footer  */
-footer div.container{
-  display: flex;
-  width: 80%;
-  margin-bottom: 0;
-  padding-bottom: 0;
+/* ------------ Footer -------------- */
+footer {
+  padding: 0 50px 50px 50px;
   
-  flex-direction: column;
-  /* flex-wrap: nowrap; */
-  justify-content: space-between;
 }
-  /* End Tablets 577 - 699 px */
+footer div.container {
+  width: 100%;
+  margin-bottom: 0;
+  
+}
+footer h3 {
+  padding: 45px 0 12px 0;
+}
+  /* End Tablets 577 -> 767 px */
 }
 
 
@@ -1110,6 +1117,12 @@ section#filterSection > h2{
   } 
   
 /* ------------Section Filtres --------------*/
+section#filterSection > h2{
+  
+  margin-bottom:0;
+    font-size: 26px;
+    margin: 47px 10px 25px 0;
+}
 .filtre{
   /* width: fit-content;
   display: flex;
@@ -1127,78 +1140,83 @@ section#filterSection > h2{
   padding-right: 10px;
 }
 /* ------------Section Populaires --------------*/
-  #populaires {
-    /* border: 1px solid orange; */
-    width: 100%;
-    height: auto;
-    background-color: #f2f2f2;
-    border-radius: 30px;
-    padding: 30px 0px 35px 0px;
-  }
-  section.populairesContainer {
-    overflow:auto;
-    /* border: 1px solid green; */
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content:space-between;
-    gap: 20px;
-  
-    
-  }
-  div.titlePop i {
-    display: inline-block;
-    /* background-color: turquoise; */
-    margin: 0px 20px 25px 0;
-    font-weight: 600;
+#populaires {
+  /* border: 1px solid orange; */
+  width: 100%;
+  height: auto;
+  background-color: #f2f2f2;
+  border-radius: 30px;
+  padding: 30px 0px 35px 0px;
 }
-  article.article-flex {
-    margin: 20px;
-    /* background-color: rgb(189, 14, 14); */
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    flex-wrap: nowrap;
-    width: 50%;
-    min-width: 280px;
-    height: 127px;
-    /* padding: 5px; */
-  }
-  section.populairesContainer article.article-flex  div.description {
-    padding: 5px 0 0px 10px;
-    display: flex;
-    flex-direction: column;
-    /* background-color: tomato; */
-    width: 100%;
-    align-content:space-between;
-  }
-  section.populairesContainer article.article-flex img {
-    object-fit: cover;
-    height: 115px;
-    width: 105px;
-    border-radius: 15px 0 0 15px;
-  }
-  section.populairesContainer {
-  gap:10px;}
-  section.populairesContainer article.article-flex  div.description div.descriptionStars{
+section.populairesContainer {
+  overflow:auto;
+  padding: 0 0 20px 0;
+  /* border: 1px solid green; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content:space-between;
+  gap: 20px;
+    
+}
+div.titlePop i {
+  display: inline-block;
+  /* background-color: turquoise; */
+  margin: 0px 20px 25px 0;
+  font-weight: 600;
+}
+article.article-flex {
+  margin: 20px;
+  /* background-color: rgb(189, 14, 14); */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  width: 50%;
+  min-width: 280px;
+  height: 127px;
   
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding-top: 20px;
-  }
+  /* padding: 5px; */
+}
+section.populairesContainer article.article-flex  div.description {
+  padding: 5px 0 0px 10px;
+  display: flex;
+  flex-direction: column;
+  /* background-color: tomato; */
+  width: 100%;
+  align-content:space-between;
+}
+section.populairesContainer article.article-flex img {
+  object-fit: cover;
+  height: 115px;
+  width: 105px;
+  border-radius: 15px 0 0 15px;
+}
+section.populairesContainer {
+gap:10px;}
+section.populairesContainer article.article-flex  div.description div.descriptionStars{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-top: 20px;
+}
+/* ------------Section Hebergements --------------*/
 /* ------------Section Hebergements --------------*/
 #hebergements {
   /* border: 1px solid violet; */
   width: 100%;
-  padding-right: 0px;
+  
   padding: 0 0px;
-  background-color: #fff;
-  border-radius: 0px;
+  background-color: #f2f2f2;
+  border-radius: 30px;
+}
+#hebergements h2{
+  padding-top: 20px;
 }
 .articlesContainer{
-  gap: 10px;
+  gap: 20px;
 }
 /* Paramétrage des cartes */
 [class^="card"] {
@@ -1223,8 +1241,8 @@ article.card img {
 #activites{
 
   height: fit-content;
-  margin: 0px 0;
-  margin-bottom: 50px;
+  margin: 40px 0 50px 0;
+  
 }
 #activites h2{
   margin: 0px 0 25px 0px;
@@ -1243,7 +1261,7 @@ article.card img {
   justify-content: space-around;
   align-items: space-around;
   row-gap: 40px;
-  gap: 10px;
+  gap: 20px;
   align-content: space-between;
 }
 [class^="activityCard-"]{
@@ -1254,61 +1272,45 @@ article.card img {
   height: 135px;
   object-fit:cover;
 }
-
-/*  Footer  */
+/* ------------ Footer -------------- */
 footer div.container{
   display: flex;
-  width: 80%;
-  margin-bottom: 0;
-  padding-bottom: 0;
+  width: 100%;
+  padding-right: 50px;
   
-  flex-direction: column;
-  /* flex-wrap: nowrap; */
-  justify-content: space-between;
-}  
-  /* End Tablets 700 - 1024 px */
 }
-/* ---------------------------------------- */
-/* ------------ Macbook 1280 -------------- */
-/* ----------------- 768 -> 1024 ----------------------- */
-/* ---------------------------------------- */
-/* ------------ Macbook 1280 -------------- */
-/* ----------------- 768 -> 1024 ----------------------- */
-/* ---------------------------------------- */
-/* ------------ Macbook 1280 -------------- */
-/* ----------------- 768 -> 1024 ----------------------- */
-/* ---------------------------------------- */
-/* ------------ Macbook 1280 -------------- */
-/* ----------------- 768 -> 1024 ----------------------- */
-/* ---------------------------------------- */
-/* ------------ Macbook 1280 -------------- */
-/* ----------------- 768 -> 1024 ----------------------- */
-/* ---------------------------------------- */
-/* ------------ Macbook 1280 -------------- */
-/* ----------------- 768 -> 1024 ----------------------- */
-/* ---------------------------------------- */
-/* ------------ Macbook 1280 -------------- */
-/* ----------------- 768 -> 1024 ----------------------- */
-/* ---------------------------------------- */
-/* ------------ Macbook 1280 -------------- */
-/* ----------------- 768 -> 1024 ----------------------- */
+
+  /* End Tablets 768 - 1024 px */
+}
+
+/* ----------------- 1025 -> 1427  ----------------------- */
+/* ----------------- 1025 -> 1427  ----------------------- */
+/* ----------------- 1025 -> 1427  ----------------------- */
+/* ----------------- 1025 -> 1427  ----------------------- */
+/* ----------------- 1025 -> 1427  ----------------------- */
+/* ----------------- 1025 -> 1427  ----------------------- */
+/* ----------------- 1025 -> 1427  ----------------------- */
+/* ----------------- 1025 -> 1427  ----------------------- */
+/* ----------------- 1025 -> 1427  ----------------------- */
+/* ----------------- 1025 -> 1427  ----------------------- */
+/* ----------------- 1025 -> 1427  ----------------------- */
+/* ----------------- 1025 -> 1427  ----------------------- */
+/* ----------------- 1025 -> 1427  ----------------------- */
+/* ----------------- 1025 -> 1427  ----------------------- */
+/* ----------------- 1025 -> 1427  ----------------------- */
+/* ----------------- 1025 -> 1427  ----------------------- */
+
 
 @media all and (min-width: 1025px) and (max-width: 1427px) {
   /* Global settings */
-  h1 {
-    font-size: 22px;
-    margin: 30px 20px 4px 0px;
-  }
+  
+  
   h2 {
     font-size: 26px;
     margin: 0px 10px 25px 20px;
   }
   
-  body {
-    width: 100%;
-    /* border: 1px solid red; */
-    margin: 0 auto;
-  }
+  
   main.main_wrapper {
     margin: 0 50px;
     /* border: 1px solid blue; */
@@ -1445,6 +1447,7 @@ div.homes p{
     }
     section.populairesContainer {
       overflow:auto;
+      padding: 0 0 20px 0;
       /* border: 1px solid green; */
       width: 100%;
       display: flex;
@@ -1533,8 +1536,7 @@ div.homes p{
   #activites{
   
     height: fit-content;
-    margin: 0px 0;
-    margin-bottom: 50px;
+    margin: 50px 0 50px 0;
   }
   #activites h2{
     margin: 0px 0 25px 0px;
@@ -1564,5 +1566,15 @@ div.homes p{
     height: 135px;
     object-fit:cover;
   }
+  /* ------------ Footer -------------- */
+footer div.container{
+  display: flex;
+  width: 80%;
+  padding-right: 50px;
+  
+}
+
 } 
- 
+
+
+  
