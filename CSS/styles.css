@@ -235,6 +235,9 @@ div.homes{
   display: flex;
   align-items: center;
 }
+div.homes p{
+  padding-left: 10px;
+}
 
 
 /* -------------------- HOMES -------------------- */
@@ -505,7 +508,7 @@ footer ul li{
 /* --------------------------- Media Queries -------------------- */
 
 /* ------------ Mobiles -------------- */
-@media all and (max-width: 576px) {
+@media all and (max-width: 575px) {
 /* Global settings */
 h1 {
   font-size: 22px;
@@ -731,7 +734,7 @@ footer div.container{
 /* End mobil media queries End Mobils -> 576px*/
 }
 /* ------------ Tablettes -------------- */
-@media all and (min-width: 577px) and (max-width: 699px) {
+@media all and (min-width: 576px) and (max-width: 767px) {
  /* Global settings */
 h1 {
   font-size: 22px;
@@ -745,6 +748,7 @@ body {
   width: 100%;
   /* border: 1px solid red; */
   margin: 0 auto;
+  background-color: #0065fc;
 }
 main.main_wrapper {
   margin: 0 20px;
@@ -961,7 +965,7 @@ footer div.container{
 
 /* ---------------------------------------- */
 /* ---------------------------------------- */
-@media all and (min-width: 700px) and (max-width: 1024px) {
+@media all and (min-width: 768px) and (max-width: 1024px) {
 /* Global settings */
 h1 {
   font-size: 22px;
