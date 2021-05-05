@@ -506,7 +506,13 @@ footer ul li{
 /* --------------------------- Media Queries -------------------- */
 /* --------------------------- Media Queries -------------------- */
 /* --------------------------- Media Queries -------------------- */
-
+/* --------------------------- Media Queries -------------------- */
+/* --------------------------- Media Queries -------------------- */
+/* --------------------------- Media Queries -------------------- */
+/* --------------------------- Media Queries -------------------- *//* --------------------------- Media Queries -------------------- */
+/* --------------------------- Media Queries -------------------- */
+/* --------------------------- Media Queries -------------------- */
+/* --------------------------- Media Queries -------------------- */
 /* ------------ Mobiles -------------- */
 @media all and (max-width: 575px) {
 /* Global settings */
@@ -647,7 +653,8 @@ section#filterSection > h2{
     flex-direction: row;
     justify-content: flex-start;
     flex-wrap: nowrap;
-    min-width: 334px;
+    width: 90%;
+    min-width: 310px;
     height: 147px;
     /* padding: 5px; */
   }
@@ -668,10 +675,10 @@ section#filterSection > h2{
 /* Paramétrage des cartes */
 [class^="card"] {
   height: 200px;
-  width: 100%;
+  width: 90%;
   /* border: 1px solid red; */
   background-color: white;
-  width: 335px;
+  min-width: 335px;
   /* text-align: s; */
   padding: 5px 5px 0 5px;
 }
@@ -712,7 +719,8 @@ article.card img {
   align-content: space-between;
 }
 [class^="activityCard-"]{
-  width: 335px;
+  width: 90%;
+  min-width: 335px;
 }
 [class^="activityCard-"] img{
   width: 100%;
@@ -733,7 +741,23 @@ footer div.container{
 }
 /* End mobil media queries End Mobils -> 576px*/
 }
-/* ------------ Tablettes -------------- */
+/* ------------ Tablettes 576 -> 767 ------------------------- */
+/* ------------ Tablettes 576 -> 767 ------------------------- */
+/* ------------ Tablettes 576 -> 767 ------------------------- */
+/* ------------ Tablettes 576 -> 767 ------------------------- */
+/* ------------ Tablettes 576 -> 767 ------------------------- */
+/* ------------ Tablettes 576 -> 767 ------------------------- */
+/* ------------ Tablettes 576 -> 767 ------------------------- */
+/* ------------ Tablettes 576 -> 767 ------------------------- */
+/* ------------ Tablettes 576 -> 767 ------------------------- */
+/* ------------ Tablettes 576 -> 767 ------------------------- */
+/* ------------ Tablettes 576 -> 767 ------------------------- */
+/* ------------ Tablettes 576 -> 767 ------------------------- */
+/* ------------ Tablettes 576 -> 767 ------------------------- */
+/* ------------ Tablettes 576 -> 767 ------------------------- */
+/* ------------ Tablettes 576 -> 767 ------------------------- */
+/* ------------ Tablettes 576 -> 767 ------------------------- */
+
 @media all and (min-width: 576px) and (max-width: 767px) {
  /* Global settings */
 h1 {
@@ -748,7 +772,7 @@ body {
   width: 100%;
   /* border: 1px solid red; */
   margin: 0 auto;
-  background-color: #0065fc;
+  /* background-color: #0065fc; */
 }
 main.main_wrapper {
   margin: 0 20px;
@@ -813,7 +837,9 @@ nav{
 
 /* ------------Section Recherche --------------*/
 form {
+  width: 100%;
   margin: 18px auto;
+  
   display: flex;
   margin-bottom: 0;
   
@@ -853,63 +879,64 @@ section#filterSection > h2{
   padding-right: 10px;
 }
 /* ------------Section Populaires --------------*/
-  #populaires {
-    /* border: 1px solid orange; */
-    width: 100%;
-    height: auto;
-    background-color: #f2f2f2;
-    border-radius: 0px;
-    padding: 30px 0px 35px 0px;
-  }
- 
-  div.titlePop i {
-    display: inline-block;
-    /* background-color: turquoise; */
-    margin: 0px 20px 25px 0;
-    font-weight: 600;
+#populaires {
+  /* border: 1px solid orange; */
+  width: 100%;
+  height: auto;
+  background-color: #f2f2f2;
+  border-radius: 0px;
+  padding: 30px 0px 35px 0px;
 }
-  article.article-flex {
-    /* background-color: rgb(189, 14, 14); */
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    flex-wrap: nowrap;
-    min-width: 334px;
-    height: 147px;
-    /* padding: 5px; */
-  }
-  section.populairesContainer {
-  gap:10px;}
+
+div.titlePop i {
+  display: inline-block;
+  /* background-color: turquoise; */
+  margin: 0px 20px 25px 0;
+  font-weight: 600;
+}
+article.article-flex {
+  /* background-color: rgb(189, 14, 14); */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  width: 80%;
+  min-width: 310px;
+  height: 147px;
+  /* padding: 5px; */
+}
+section.populairesContainer {
+gap:10px;}
 /* ------------Section Hebergements --------------*/
 #hebergements {
-  /* border: 1px solid violet; */
-  width: 100%;
-  padding-right: 0px;
-  padding: 0 0px;
-  background-color: #fff;
-  border-radius: 0px;
+/* border: 1px solid violet; */
+width: 100%;
+padding-right: 0px;
+padding: 0 0px;
+background-color: #fff;
+border-radius: 0px;
 }
 .articlesContainer{
-  gap: 10px;
+gap: 10px;
 }
 /* Paramétrage des cartes */
 [class^="card"] {
-  height: 200px;
-  width: 100%;
-  /* border: 1px solid red; */
-  background-color: white;
-  width: 335px;
-  /* text-align: s; */
-  padding: 5px 5px 0 5px;
+height: 200px;
+/* width: 80%; */
+/* border: 1px solid red; */
+background-color: white;
+min-width: 250px;
+/* text-align: s; */
+padding: 5px 5px 0 5px;
 }
 article.card img {
-  object-fit: cover;
-  border-radius: 15px 15px 0 0;
-  width: 100%;
-  height: 114px;
+object-fit: cover;
+border-radius: 15px 15px 0 0;
+width: 100%;
+height: 114px;
 }
 #hebergements a p.more{
-  margin-left: 20px;
+margin-left: 20px;
 }
 /* ---------------- Section Activités --------------- */
 #activites{
@@ -939,7 +966,8 @@ article.card img {
   align-content: space-between;
 }
 [class^="activityCard-"]{
-  width: 335px;
+  width: 48%;
+  min-width: 300px;
 }
 [class^="activityCard-"] img{
   width: 100%;
@@ -963,8 +991,22 @@ footer div.container{
 
 
 
-/* ---------------------------------------- */
-/* ---------------------------------------- */
+/* ----------------- 768 -> 1024 ----------------------- */
+/* ----------------- 768 -> 1024 ----------------------- */
+/* ----------------- 768 -> 1024 ----------------------- */
+/* ----------------- 768 -> 1024 ----------------------- */
+/* ----------------- 768 -> 1024 ----------------------- */
+/* ----------------- 768 -> 1024 ----------------------- */
+/* ----------------- 768 -> 1024 ----------------------- */
+/* ----------------- 768 -> 1024 ----------------------- */
+/* ----------------- 768 -> 1024 ----------------------- */
+/* ----------------- 768 -> 1024 ----------------------- */
+/* ----------------- 768 -> 1024 ----------------------- */
+/* ----------------- 768 -> 1024 ----------------------- */
+/* ----------------- 768 -> 1024 ----------------------- */
+/* ----------------- 768 -> 1024 ----------------------- */
+/* ----------------- 768 -> 1024 ----------------------- */
+/* ----------------- 768 -> 1024 ----------------------- */
 @media all and (min-width: 768px) and (max-width: 1024px) {
 /* Global settings */
 h1 {
@@ -1226,3 +1268,299 @@ footer div.container{
 }
 /* ---------------------------------------- */
 /* ------------ Macbook 1280 -------------- */
+/* ----------------- 768 -> 1024 ----------------------- */
+/* ---------------------------------------- */
+/* ------------ Macbook 1280 -------------- */
+/* ----------------- 768 -> 1024 ----------------------- */
+/* ---------------------------------------- */
+/* ------------ Macbook 1280 -------------- */
+/* ----------------- 768 -> 1024 ----------------------- */
+/* ---------------------------------------- */
+/* ------------ Macbook 1280 -------------- */
+/* ----------------- 768 -> 1024 ----------------------- */
+/* ---------------------------------------- */
+/* ------------ Macbook 1280 -------------- */
+/* ----------------- 768 -> 1024 ----------------------- */
+/* ---------------------------------------- */
+/* ------------ Macbook 1280 -------------- */
+/* ----------------- 768 -> 1024 ----------------------- */
+/* ---------------------------------------- */
+/* ------------ Macbook 1280 -------------- */
+/* ----------------- 768 -> 1024 ----------------------- */
+/* ---------------------------------------- */
+/* ------------ Macbook 1280 -------------- */
+/* ----------------- 768 -> 1024 ----------------------- */
+
+@media all and (min-width: 1025px) and (max-width: 1427px) {
+  /* Global settings */
+  h1 {
+    font-size: 22px;
+    margin: 30px 20px 4px 0px;
+  }
+  h2 {
+    font-size: 26px;
+    margin: 0px 10px 25px 20px;
+  }
+  
+  body {
+    width: 100%;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+  }
+  main.main_wrapper {
+    margin: 0 50px;
+    /* border: 1px solid blue; */
+  }
+  div.wrapper {
+    margin: 0 50px;
+    /* border: 1px solid rgb(255, 0, 0); */
+  }
+  div.home-wrapper {
+    margin: 0 50px;
+    /* border: 1px solid rgb(255, 0, 0); */
+  } 
+    
+  /* ------------ Rechercher ------------ */
+
+form {
+  margin: 18px 0 0px 0;
+  display: flex;
+  
+}
+label {
+  background-color: #e1e0e0;
+  color: black;
+  position: relative;
+  border-radius: 10px 0 0 10px;
+  padding: 16px 18px;
+  margin-right: 0px;
+}
+
+input {
+  
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0px 10px 0 16px; 
+  line-height: 50px;
+  border: 1px solid #e1e0e0;
+  border-radius: 0 0px 0px 0;
+}
+#valide {
+  position: relative;
+  left: -5px;
+  border-radius: 0 15px 15px 0;
+  background-color: #0065fc;
+  padding: 0px 20px;
+  color: white;
+  border: none;
+  line-height: 50px;
+}
+#ok{
+  display: none;
+  border-radius: 15px;
+  background-color: #0065fc;
+  border: none;
+  position: relative;
+  left: -10px;
+}
+.fa-search {
+  color: white;
+padding: 10px 20px;
+}
+
+#Filters p.homes {
+  margin: 50px 0;
+}
+
+   
+/* ------------ Filtres ------------ */
+
+section#filterSection{ 
+  /* background-color: rgb(176, 44, 196); */
+  padding: 0 0 40px 0;
+}
+section#filterSection > h2{
+  /* background-color: blueviolet; */
+  display: inline-block;
+  vertical-align:bottom;
+  margin-top: 47px;
+}
+div#Filtres {
+  /* background-color: rgb(60, 149, 97); */
+  display: inline-flex;
+  flex-wrap: wrap;
+  position: relative;
+
+  }
+.filtre{
+  width: fit-content;
+  display: flex;
+  border: 2px solid #e1e0e0;
+  align-items: center;
+  height: 50px;
+  margin: 0px 20px 13px 0px ;
+  border-radius: 50px;
+}
+.filtre span {
+  
+  position: relative;
+  left: -10px;
+  margin: 0;
+  padding: 0;
+  font-size: 1.6em;
+  
+}
+.filtre p {
+  display: inline-block;
+  position: relative;
+  text-transform: capitalize;
+  padding-right: 20px;
+}
+
+span .fa-stack-1x {
+  color: #0065fc;
+}
+span .fa-stack-2x {
+  color: #DEEBFF;
+}
+div.homes{
+  padding-top: 22px;
+  display: flex;
+  align-items: center;
+}
+div.homes p{
+  padding-left: 10px;
+}
+
+  /* ------------Section Populaires --------------*/
+    #populaires {
+      /* border: 1px solid orange; */
+      width: 100%;
+      height: auto;
+      background-color: #f2f2f2;
+      border-radius: 30px;
+      padding: 30px 0px 35px 0px;
+    }
+    section.populairesContainer {
+      overflow:auto;
+      /* border: 1px solid green; */
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content:space-between;
+      gap: 20px;
+        
+    }
+    div.titlePop i {
+      display: inline-block;
+      /* background-color: turquoise; */
+      margin: 0px 20px 25px 0;
+      font-weight: 600;
+  }
+    article.article-flex {
+      margin: 20px;
+      /* background-color: rgb(189, 14, 14); */
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      flex-wrap: nowrap;
+      width: 50%;
+      min-width: 280px;
+      height: 127px;
+      /* padding: 5px; */
+    }
+    section.populairesContainer article.article-flex  div.description {
+      padding: 5px 0 0px 10px;
+      display: flex;
+      flex-direction: column;
+      /* background-color: tomato; */
+      width: 100%;
+      align-content:space-between;
+    }
+    section.populairesContainer article.article-flex img {
+      object-fit: cover;
+      height: 115px;
+      width: 105px;
+      border-radius: 15px 0 0 15px;
+    }
+    section.populairesContainer {
+    gap:10px;}
+    section.populairesContainer article.article-flex  div.description div.descriptionStars{
+    
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding-top: 20px;
+    }
+  /* ------------Section Hebergements --------------*/
+  #hebergements {
+    /* border: 1px solid violet; */
+    width: 100%;
+    
+    padding: 0 0px;
+    background-color: #f2f2f2;
+    border-radius: 30px;
+  }
+  #hebergements h2{
+    padding-top: 20px;
+  }
+  .articlesContainer{
+    gap: 10px;
+  }
+  /* Paramétrage des cartes */
+  [class^="card"] {
+    height: 200px;
+    width: 100%;
+    /* border: 1px solid red; */
+    background-color: white;
+    width: 335px;
+    /* text-align: s; */
+    padding: 5px 5px 0 5px;
+  }
+  article.card img {
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+    height: 114px;
+  }
+  #hebergements a p.more{
+    margin-left: 20px;
+  }
+  /* ---------------- Section Activités --------------- */
+  #activites{
+  
+    height: fit-content;
+    margin: 0px 0;
+    margin-bottom: 50px;
+  }
+  #activites h2{
+    margin: 0px 0 25px 0px;
+  }
+  #activitiesFlexContainer {
+    
+    width: 100%;
+    max-height:none;
+    
+    /* border: 2px solid red; */
+    /* background-color: grey; */
+    padding: 0px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: space-around;
+    row-gap: 40px;
+    gap: 10px;
+    align-content: space-between;
+  }
+  [class^="activityCard-"]{
+    width: 335px;
+  }
+  [class^="activityCard-"] img{
+    width: 100%;
+    height: 135px;
+    object-fit:cover;
+  }
+} 
+ 
