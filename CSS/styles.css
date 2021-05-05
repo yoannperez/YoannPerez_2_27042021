@@ -155,6 +155,7 @@ input {
   border-radius: 0 0px 0px 0;
 }
 #valide {
+  cursor: pointer;
   position: relative;
   left: -5px;
   border-radius: 0 15px 15px 0;
@@ -165,6 +166,7 @@ input {
   line-height: 50px;
 }
 #ok{
+  cursor: pointer;
   display: none;
   border-radius: 15px;
   background-color: #0065fc;
@@ -200,6 +202,7 @@ div#Filtres {
 
   }
 .filtre{
+  cursor: pointer;
   width: fit-content;
   display: flex;
   border: 2px solid #e1e0e0;
