@@ -1524,7 +1524,7 @@ footer ul li {
   /* ------------ Footer -------------- */
   footer div.container {
     display: flex;
-    width: 90%;
-    padding: 0 50px;
+    width: 100%;
+    padding-right: 50px;
   }
 }
