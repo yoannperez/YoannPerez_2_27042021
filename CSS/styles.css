@@ -563,7 +563,8 @@ footer ul li {
   header nav ul li {
     display: inline-block;
     border-bottom: 2px solid gray;
-    width: 49vw;
+    width: 50vw;
+    margin: 0 -2px;
     text-align: center;
     padding: 10px 0px 15px 0px;
     flex-grow: 1.5;
@@ -806,7 +807,8 @@ footer ul li {
   header nav ul li {
     display: inline-block;
     border-bottom: 2px solid gray;
-    width: 49vw;
+    width: 50vw;
+    margin: 0 -2px;
     text-align: center;
     padding: 10px 0px 15px 0px;
     flex-grow: 1.5;
@@ -1046,7 +1048,8 @@ footer ul li {
   header nav ul li {
     display: inline-block;
     border-bottom: 2px solid gray;
-    width: 49vw;
+    width: 50vw;
+    margin: 0 -2px;
     text-align: center;
     padding: 10px 0px 15px 0px;
     flex-grow: 1.5;
