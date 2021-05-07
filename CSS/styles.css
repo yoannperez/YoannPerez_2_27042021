@@ -579,7 +579,7 @@ footer ul li {
 
   /* ------------Section Recherche --------------*/
   form {
-    margin: 18px auto;
+    margin: 18px 20px;
     display: flex;
     margin-bottom: 0;
   }
@@ -600,7 +600,7 @@ footer ul li {
     background-color: #0065fc;
     border: none;
     position: relative;
-    left: -25px;
+    left: -10px;
     
   }
 
