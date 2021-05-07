@@ -514,7 +514,7 @@ footer ul li {
   }
   body {
     width: 100%;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     margin: 0 auto;
   }
   main.main_wrapper {
@@ -757,7 +757,7 @@ footer ul li {
   }
   body {
     width: 100%;
-    /* border: 1px solid red; */
+    border: 1px solid yellow;
     margin: 0 auto;
     /* background-color: #0065fc; */
   }
@@ -998,7 +998,7 @@ footer ul li {
   }
   body {
     width: 100%;
-    /* border: 1px solid red; */
+    border: 1px solid green;
     margin: 0 auto;
   }
   main.main_wrapper {
@@ -1268,6 +1268,9 @@ footer ul li {
   h2 {
     font-size: 26px;
     margin: 0px 10px 25px 20px;
+  }
+  body {
+    border: 1px solid green;
   }
 
   main.main_wrapper {
