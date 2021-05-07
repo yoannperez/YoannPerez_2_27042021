@@ -601,6 +601,7 @@ footer ul li {
     border: none;
     position: relative;
     left: -15px;
+    margin-right: 20px;
   }
 
   /* ------------Section Filtres --------------*/
