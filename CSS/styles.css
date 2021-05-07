@@ -514,7 +514,7 @@ footer ul li {
   }
   body {
     width: 100%;
-    border: 1px solid red;
+    background-color:   red;
     margin: 0 auto;
   }
   main.main_wrapper {
@@ -757,7 +757,7 @@ footer ul li {
   }
   body {
     width: 100%;
-    border: 1px solid yellow;
+    background-color:  yellow;
     margin: 0 auto;
     /* background-color: #0065fc; */
   }
@@ -998,7 +998,7 @@ footer ul li {
   }
   body {
     width: 100%;
-    border: 1px solid green;
+    background-color:  green;
     margin: 0 auto;
   }
   main.main_wrapper {
@@ -1270,7 +1270,7 @@ footer ul li {
     margin: 0px 10px 25px 20px;
   }
   body {
-    border: 1px solid green;
+    background-color: blue;
   }
 
   main.main_wrapper {
@@ -1460,7 +1460,6 @@ footer ul li {
   #hebergements {
     /* border: 1px solid violet; */
     width: 100%;
-
     padding: 0 0px;
     background-color: #f2f2f2;
     border-radius: 30px;
@@ -1501,9 +1500,6 @@ footer ul li {
   #activitiesFlexContainer {
     width: 100%;
     max-height: none;
-
-    /* border: 2px solid red; */
-    /* background-color: grey; */
     padding: 0px 0;
     display: flex;
     flex-wrap: wrap;
