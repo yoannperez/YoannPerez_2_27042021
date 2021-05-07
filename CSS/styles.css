@@ -148,7 +148,7 @@ input {
   padding: 0px 10px 0 16px;
   line-height: 50px;
   border: 1px solid #e1e0e0;
-  border-radius: 0 0px 0px 0;
+  
 }
 #valide {
   cursor: pointer;
@@ -513,6 +513,7 @@ footer ul li {
     margin: 0px 0 25px 20px;
   }
   body {
+    min-width: 350px;
     width: 100%;
     background-color:   red;
     margin: 0 auto;
@@ -587,6 +588,7 @@ footer ul li {
     margin-left: 0;
     margin-bottom: 12px;
   }
+  
   #valide {
     display: none;
   }
@@ -596,7 +598,7 @@ footer ul li {
     background-color: #0065fc;
     border: none;
     position: relative;
-    left: -10px;
+    left: -15px;
   }
 
   /* ------------Section Filtres --------------*/
@@ -945,7 +947,7 @@ footer ul li {
     justify-content: space-around;
     align-items: space-around;
     row-gap: 40px;
-    gap: 10px;
+    gap: 20px;
     align-content: space-between;
   }
   [class^="activityCard-"] {
