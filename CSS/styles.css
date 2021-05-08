@@ -236,7 +236,7 @@ div.homes p {
 }
 
 /* -------------------- HOMES -------------------- */
-#homes {
+#section-homes {
   width: 100%;
   margin: 0px auto;
   display: flex;
@@ -331,7 +331,7 @@ div.titlePop i {
 }
 
 /* -----Conteneur flex ------- */
-section.populairesContainer {
+div.populairesContainer {
   /* border: 1px solid green; */
   width: 100%;
   display: flex;
@@ -352,13 +352,13 @@ article.article-flex {
   padding: 5px;
 }
 
-section.populairesContainer article.article-flex img {
+div.populairesContainer article.article-flex img {
   object-fit: cover;
   height: 135px;
   width: 127px;
   border-radius: 15px 0 0 15px;
 }
-section.populairesContainer article.article-flex div.description {
+div.populairesContainer article.article-flex div.description {
   padding: 14px 0 0px 20px;
   display: flex;
   flex-direction: column;
@@ -366,7 +366,7 @@ section.populairesContainer article.article-flex div.description {
   width: auto;
   align-content: space-between;
 }
-section.populairesContainer
+div.populairesContainer
   article.article-flex
   div.description
   div.descriptionTitle {
@@ -375,7 +375,7 @@ section.populairesContainer
   flex-direction: column;
   justify-content: space-between;
 }
-section.populairesContainer
+div.populairesContainer
   article.article-flex
   div.description
   div.descriptionStars {
@@ -649,7 +649,7 @@ footer ul li {
     height: 147px;
     /* padding: 5px; */
   }
-  section.populairesContainer {
+  div.populairesContainer {
     gap: 10px;
   }
   /* ------------Section Hebergements --------------*/
@@ -895,7 +895,7 @@ footer ul li {
     height: 147px;
     /* padding: 5px; */
   }
-  section.populairesContainer {
+  div.populairesContainer {
     gap: 10px;
   }
   /* ------------Section Hebergements --------------*/
@@ -1121,7 +1121,7 @@ footer ul li {
     border-radius: 30px;
     padding: 30px 0px 35px 0px;
   }
-  section.populairesContainer {
+  div.populairesContainer {
     overflow: auto;
     padding: 0 0 20px 0;
     /* border: 1px solid green; */
@@ -1151,7 +1151,7 @@ footer ul li {
 
     /* padding: 5px; */
   }
-  section.populairesContainer article.article-flex div.description {
+  div.populairesContainer article.article-flex div.description {
     padding: 5px 0 0px 10px;
     display: flex;
     flex-direction: column;
@@ -1159,16 +1159,16 @@ footer ul li {
     width: 100%;
     align-content: space-between;
   }
-  section.populairesContainer article.article-flex img {
+  div.populairesContainer article.article-flex img {
     object-fit: cover;
     height: 115px;
     width: 105px;
     border-radius: 15px 0 0 15px;
   }
-  section.populairesContainer {
+  div.populairesContainer {
     gap: 10px;
   }
-  section.populairesContainer
+  div.populairesContainer
     article.article-flex
     div.description
     div.descriptionStars {
@@ -1410,7 +1410,7 @@ footer ul li {
     border-radius: 30px;
     padding: 30px 0px 35px 0px;
   }
-  section.populairesContainer {
+  div.populairesContainer {
     overflow: auto;
     padding: 0 0 20px 0;
     /* border: 1px solid green; */
@@ -1439,7 +1439,7 @@ footer ul li {
     height: 127px;
     /* padding: 5px; */
   }
-  section.populairesContainer article.article-flex div.description {
+  div.populairesContainer article.article-flex div.description {
     padding: 5px 0 0px 10px;
     display: flex;
     flex-direction: column;
@@ -1447,16 +1447,16 @@ footer ul li {
     width: 100%;
     align-content: space-between;
   }
-  section.populairesContainer article.article-flex img {
+  div.populairesContainer article.article-flex img {
     object-fit: cover;
     height: 115px;
     width: 105px;
     border-radius: 15px 0 0 15px;
   }
-  section.populairesContainer {
+  div.populairesContainer {
     gap: 10px;
   }
-  section.populairesContainer
+  div.populairesContainer
     article.article-flex
     div.description
     div.descriptionStars {
