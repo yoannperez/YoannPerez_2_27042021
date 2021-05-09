@@ -637,7 +637,7 @@ footer ul li {
     padding: 14px 5px 0px 20px;
     display: flex;
     flex-direction: column;
-    background-color: tomato;
+    /* background-color: tomato; */
     width: fit-content;
  
     align-content: space-between;
