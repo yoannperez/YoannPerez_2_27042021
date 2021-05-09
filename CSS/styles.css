@@ -511,12 +511,7 @@ footer ul li {
   }
   div.wrapper {
     margin: 0 20px;
-    /* border: 1px solid rgb(255, 0, 0); */
-  }
-  /* div.home-wrapper {
-    margin: 0 0px;
-    border: 1px solid rgb(255, 0, 0);
-  } */
+    }
 
   /* Header Settings */
   header img {
@@ -524,11 +519,6 @@ footer ul li {
     margin-left: 20px;
   }
   a.login {
-    /* float: right;
-      text-decoration: none; */
-    /* background-color: chartreuse; */
-    /* color: #0065fc;
-      font-weight: 700; */
     padding: 43px 0px 0 20px;
     margin-right: 21px;
   }
@@ -591,14 +581,8 @@ footer ul li {
 
   /* ------------Section Filtres --------------*/
   .filtre {
-    /* width: fit-content;
-  display: flex;
-  border: 2px solid #e1e0e0;
-  align-items: center;
-  height: 50px; */
     margin: 0px 10px 13px 0px;
-    /* border-radius: 50px; */
-  }
+   }
   .filtre p {
     /* display: inline-block;
   position: relative;
@@ -617,7 +601,7 @@ footer ul li {
     height: auto;
     background-color: #f2f2f2;
     border-radius: 0px;
-    padding: 30px 0px 35px 0px;
+    padding: 30px 20px 35px 20px;
   }
 
   div.titlePop i {
@@ -627,7 +611,7 @@ footer ul li {
     font-weight: 600;
   }
   div.populairesContainer {
-    padding: 0 20px;
+    padding: 0 0px;
     gap: 10px;
   }
 
@@ -675,7 +659,7 @@ footer ul li {
     /* border: 1px solid violet; */
     width: 100%;
     padding-right: 0px;
-    padding: 0 0px;
+    padding: 0 20px;
     background-color: #fff;
     border-radius: 0px;
   }
@@ -685,7 +669,7 @@ footer ul li {
   /* Paramétrage des cartes */
   [class^="card"] {
     height: 200px;
-    width: 90%;
+    width: 100%;
     /* border: 1px solid red; */
     background-color: white;
     min-width: 335px;
@@ -727,7 +711,7 @@ footer ul li {
     align-content: space-between;
   }
   [class^="activityCard-"] {
-    width: 90%;
+    width: 100%;
     min-width: 335px;
   }
   [class^="activityCard-"] img {
@@ -1297,9 +1281,7 @@ footer ul li {
     font-size: 26px;
     margin: 0px 10px 25px 20px;
   }
-  body {
-    /* background-color: blue; */
-  }
+
 
   div.main_wrapper {
     margin: 0 50px;
