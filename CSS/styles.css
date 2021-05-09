@@ -341,8 +341,8 @@ div.populairesContainer {
   gap: 32px;
 }
 /* ----- Config Article ------- */
-article.article-flex {
-  background-color: white;
+div.article-flex {
+  background-color: rgb(206, 22, 22);
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -352,31 +352,31 @@ article.article-flex {
   padding: 5px;
 }
 
-div.populairesContainer article.article-flex img {
+div.populairesContainer div.article-flex img {
   object-fit: cover;
   height: 135px;
   width: 127px;
   border-radius: 15px 0 0 15px;
 }
-div.populairesContainer article.article-flex div.description {
+div.populairesContainer div.article-flex div.description {
   padding: 14px 0 0px 20px;
   display: flex;
   flex-direction: column;
-  /* background-color: tomato; */
+  background-color: tomato;
   width: auto;
   align-content: space-between;
 }
 div.populairesContainer
-  article.article-flex
+  div.article-flex
   div.description
   div.descriptionTitle {
-  /* background-color:greenyellow; */
+  background-color:greenyellow;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 div.populairesContainer
-  article.article-flex
+  div.article-flex
   div.description
   div.descriptionStars {
   display: flex;
