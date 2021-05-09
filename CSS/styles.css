@@ -362,13 +362,15 @@ div.populairesContainer a.article-flex div.description div.descriptionTitle {
   /* background-color:greenyellow; */
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
+  height: 75px;
 }
 div.populairesContainer a.article-flex div.description div.descriptionStars {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   padding-top: 25px;
+  height: 40px;
 }
 
 /* ---------------- Section Activités --------------- */
@@ -652,7 +654,8 @@ footer ul li {
     /* background-color:greenyellow; */
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
+    
   }
   div.populairesContainer a.article-flex div.description div.descriptionStars {
     display: flex;
@@ -1182,6 +1185,14 @@ footer ul li {
   div.populairesContainer {
     gap: 10px;
   }
+  div.populairesContainer a.article-flex div.description div.descriptionTitle {
+    /* background-color:greenyellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 65px;
+    
+  }
   div.populairesContainer a.article-flex div.description div.descriptionStars {
     display: flex;
     flex-direction: column;
@@ -1457,6 +1468,14 @@ footer ul li {
   }
   div.populairesContainer {
     gap: 10px;
+  }
+  div.populairesContainer a.article-flex div.description div.descriptionTitle {
+    /* background-color:greenyellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 65px;
+    
   }
 
   div.populairesContainer a.article-flex div.description div.descriptionStars {
