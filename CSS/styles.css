@@ -354,7 +354,7 @@ div.populairesContainer a.article-flex div.description {
   padding: 14px 0 0px 20px;
   display: flex;
   flex-direction: column;
-  /* background-color: tomato; */
+  background-color: tomato;
   width: auto;
   align-content: space-between;
 }
