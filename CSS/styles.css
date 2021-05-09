@@ -148,7 +148,6 @@ input {
   padding: 0px 10px 0 16px;
   line-height: 50px;
   border: 1px solid #e1e0e0;
-  
 }
 #valide {
   cursor: pointer;
@@ -317,7 +316,7 @@ p.more {
   background-color: #f2f2f2;
   border-radius: 30px;
   padding: 0px 40px 0px 40px;
-  }
+}
 /* Titre section */
 div.titlePop {
   /* border: 1px solid rgb(204, 52, 141); */
@@ -367,19 +366,13 @@ div.populairesContainer div.article-flex div.description {
   width: auto;
   align-content: space-between;
 }
-div.populairesContainer
-  div.article-flex
-  div.description
-  div.descriptionTitle {
+div.populairesContainer div.article-flex div.description div.descriptionTitle {
   /* background-color:greenyellow; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-div.populairesContainer
-  div.article-flex
-  div.description
-  div.descriptionStars {
+div.populairesContainer div.article-flex div.description div.descriptionStars {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -516,7 +509,7 @@ footer ul li {
   body {
     min-width: 350px;
     width: 100%;
-    background-color:   red;
+    background-color: red;
     margin: 0 auto;
   }
   main.main_wrapper {
@@ -590,8 +583,8 @@ footer ul li {
     margin-left: 0;
     margin-bottom: 12px;
   }
-  input{
-    padding: 0px 5px 0 16px
+  input {
+    padding: 0px 5px 0 16px;
   }
   #valide {
     display: none;
@@ -603,7 +596,6 @@ footer ul li {
     border: none;
     position: relative;
     left: -30px;
-    
   }
 
   /* ------------Section Filtres --------------*/
@@ -624,12 +616,8 @@ footer ul li {
     padding-right: 10px;
   }
   /* ------------Section Populaires --------------*/
-  div#section-homes {
-    
-    padding: 0 0px;
   
-  }
-  
+
   #populaires {
     /* border: 1px solid orange; */
     width: 100%;
@@ -651,10 +639,8 @@ footer ul li {
     flex-direction: row;
     justify-content: flex-start;
     flex-wrap: nowrap;
-    width: 90%;
     min-width: 310px;
     height: 147px;
-    /* padding: 5px; */
   }
   div.populairesContainer {
     gap: 10px;
@@ -771,7 +757,7 @@ footer ul li {
   }
   body {
     width: 100%;
-    background-color:  yellow;
+    background-color: yellow;
     margin: 0 auto;
     /* background-color: #0065fc; */
   }
@@ -876,6 +862,7 @@ footer ul li {
     padding-right: 10px;
   }
   /* ------------Section Populaires --------------*/
+  
   #populaires {
     /* border: 1px solid orange; */
     width: 100%;
@@ -1013,7 +1000,7 @@ footer ul li {
   }
   body {
     width: 100%;
-    background-color:  green;
+    background-color: green;
     margin: 0 auto;
   }
   main.main_wrapper {
@@ -1176,7 +1163,7 @@ footer ul li {
     gap: 10px;
   }
   div.populairesContainer
-  div.article-flex
+    div.article-flex
     div.description
     div.descriptionStars {
     display: flex;
