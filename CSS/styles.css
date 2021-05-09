@@ -4,7 +4,7 @@
 body {
   width: 100%;
   max-width: 1440px;
-  border: 1px solid rgb(255, 221, 0);
+  /* border: 1px solid rgb(255, 221, 0); */
   margin: 0 auto;
 }
 /* ----------- Generals ------------ */
@@ -43,14 +43,14 @@ a {
 /* Unified articles styles */
 .activityCardContainer,
 .card,
-div.article-flex {
+article.article-flex {
   border-radius: 15px;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.49);
 }
 /* Unified Hovering style */
 .activityCardContainer:hover,
 .card:hover,
-div.article-flex:hover {
+article.article-flex:hover {
   background-color: #deebff35;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.613);
   transition: 0.3s;
@@ -235,10 +235,9 @@ div.homes p {
 }
 
 /* -------------------- HOMES -------------------- */
-div#section-homes {
+#section-homes {
   width: 100%;
   margin: 0px auto;
-  padding: 0 50px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap-reverse;
@@ -342,7 +341,7 @@ div.populairesContainer {
 }
 /* ----- Config Article ------- */
 div.article-flex {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(206, 22, 22);
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -362,12 +361,15 @@ div.populairesContainer div.article-flex div.description {
   padding: 14px 0 0px 20px;
   display: flex;
   flex-direction: column;
-  /* background-color: tomato; */
+  background-color: tomato;
   width: auto;
   align-content: space-between;
 }
-div.populairesContainer div.article-flex div.description div.descriptionTitle {
-  /* background-color:greenyellow; */
+div.populairesContainer
+  div.article-flex
+  div.description
+  div.descriptionTitle {
+  background-color:greenyellow;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -635,9 +637,11 @@ footer ul li {
     margin: 0px 20px 25px 0;
     font-weight: 600;
   }
-  div.article-flex {
-    background-color: rgb(189, 14, 14);
-    
+  article.article-flex {
+    /* background-color: rgb(189, 14, 14); */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
     flex-wrap: nowrap;
     width: 100%;
     min-width: 310px;
@@ -879,7 +883,7 @@ footer ul li {
     margin: 0px 20px 25px 0;
     font-weight: 600;
   }
-  div.article-flex {
+  article.article-flex {
     /* background-color: rgb(189, 14, 14); */
     display: flex;
     flex-direction: row;
@@ -1133,7 +1137,7 @@ footer ul li {
     margin: 0px 20px 25px 0;
     font-weight: 600;
   }
-  div.article-flex {
+  article.article-flex {
     margin: 20px;
     /* background-color: rgb(189, 14, 14); */
     display: flex;
@@ -1146,7 +1150,7 @@ footer ul li {
 
     /* padding: 5px; */
   }
-  div.populairesContainer div.article-flex div.description {
+  div.populairesContainer article.article-flex div.description {
     padding: 5px 0 0px 10px;
     display: flex;
     flex-direction: column;
@@ -1154,7 +1158,7 @@ footer ul li {
     width: 100%;
     align-content: space-between;
   }
-  div.populairesContainer div.article-flex img {
+  div.populairesContainer article.article-flex img {
     object-fit: cover;
     height: 115px;
     width: 105px;
@@ -1164,7 +1168,7 @@ footer ul li {
     gap: 10px;
   }
   div.populairesContainer
-    div.article-flex
+    article.article-flex
     div.description
     div.descriptionStars {
     display: flex;
@@ -1422,7 +1426,7 @@ footer ul li {
     margin: 0px 20px 25px 0;
     font-weight: 600;
   }
-  div.article-flex {
+  article.article-flex {
     margin: 20px;
     /* background-color: rgb(189, 14, 14); */
     display: flex;
@@ -1434,7 +1438,7 @@ footer ul li {
     height: 127px;
     /* padding: 5px; */
   }
-  div.populairesContainer div.article-flex div.description {
+  div.populairesContainer article.article-flex div.description {
     padding: 5px 0 0px 10px;
     display: flex;
     flex-direction: column;
@@ -1442,7 +1446,7 @@ footer ul li {
     width: 100%;
     align-content: space-between;
   }
-  div.populairesContainer div.article-flex img {
+  div.populairesContainer article.article-flex img {
     object-fit: cover;
     height: 115px;
     width: 105px;
@@ -1452,7 +1456,7 @@ footer ul li {
     gap: 10px;
   }
   div.populairesContainer
-    div.article-flex
+    article.article-flex
     div.description
     div.descriptionStars {
     display: flex;
