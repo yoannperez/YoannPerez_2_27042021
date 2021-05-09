@@ -616,7 +616,9 @@ footer ul li {
     padding-right: 10px;
   }
   /* ------------Section Populaires --------------*/
-  
+  div#section-homes {
+    padding: 0 0px;
+  }
 
   #populaires {
     /* border: 1px solid orange; */
@@ -862,7 +864,6 @@ footer ul li {
     padding-right: 10px;
   }
   /* ------------Section Populaires --------------*/
-  
   #populaires {
     /* border: 1px solid orange; */
     width: 100%;
