@@ -629,7 +629,7 @@ footer ul li {
 
   div.populairesContainer a.article-flex img {
     object-fit: cover;
-    height: 135px;
+    height: 100%;
     width: 127px;
     border-radius: 15px 0 0 15px;
   }
@@ -637,7 +637,7 @@ footer ul li {
     padding: 14px 5px 0px 20px;
     display: flex;
     flex-direction: column;
-    /* background-color: tomato; */
+    background-color: tomato;
     width: fit-content;
  
     align-content: space-between;
