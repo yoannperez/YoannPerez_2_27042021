@@ -502,7 +502,7 @@ footer ul li {
   body {
     min-width: 350px;
     width: 100%;
-    background-color: red;
+    /* background-color: red; */
     margin: 0 auto;
   }
   div.main_wrapper {
@@ -782,7 +782,7 @@ footer ul li {
   }
   body {
     width: 100%;
-    background-color: yellow;
+    /* background-color: yellow; */
     margin: 0 auto;
     /* background-color: #0065fc; */
   }
@@ -1028,7 +1028,7 @@ footer ul li {
   }
   body {
     width: 100%;
-    background-color: green;
+    /* background-color: green; */
     margin: 0 auto;
   }
   div.main_wrapper {
@@ -1298,7 +1298,7 @@ footer ul li {
     margin: 0px 10px 25px 20px;
   }
   body {
-    background-color: blue;
+    /* background-color: blue; */
   }
 
   div.main_wrapper {
