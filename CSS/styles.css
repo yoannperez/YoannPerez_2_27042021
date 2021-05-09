@@ -673,7 +673,7 @@ footer ul li {
     width: 100%;
     /* border: 1px solid red; */
     background-color: white;
-    min-width: 335px;
+    
     /* text-align: s; */
     padding: 5px 5px 0 5px;
   }
@@ -691,6 +691,7 @@ footer ul li {
     height: fit-content;
     margin: 0px 0;
     margin-bottom: 50px;
+    padding:0 20px;
   }
   #activites h2 {
     margin: 0px 0 25px 0px;
@@ -713,7 +714,7 @@ footer ul li {
   }
   [class^="activityCard-"] {
     width: 100%;
-    min-width: 335px;
+    
   }
   [class^="activityCard-"] img {
     width: 100%;
