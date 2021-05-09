@@ -63,15 +63,10 @@ a.article-flex:hover {
   transition: 0.3s;
 }
 /* -------- Main wrapper ----------- */
-main.main_wrapper {
+div.main_wrapper {
   margin: 0 50px;
   /* border: 1px solid blue; */
 }
-
-/* div.home-wrapper {
-  margin: 0 50px;
-  
-} */
 /* ------------ Header ------------- */
 
 nav {
@@ -336,7 +331,6 @@ div.populairesContainer {
   flex-wrap: wrap;
   justify-content: space-evenly;
   gap: 32px;
-  
 }
 /* ----- Config Article ------- */
 a.article-flex {
@@ -364,9 +358,7 @@ div.populairesContainer a.article-flex div.description {
   width: auto;
   align-content: space-between;
 }
-div.populairesContainer a.article-flex
-  div.description
-  div.descriptionTitle {
+div.populairesContainer a.article-flex div.description div.descriptionTitle {
   /* background-color:greenyellow; */
   display: flex;
   flex-direction: column;
@@ -404,7 +396,7 @@ div.populairesContainer a.article-flex div.description div.descriptionStars {
   flex-wrap: nowrap;
   flex-direction: column;
   justify-content: space-around;
-  align-items: space-around;
+
   row-gap: 40px;
   flex-wrap: wrap;
   align-content: space-between;
@@ -483,7 +475,6 @@ footer ul {
 footer ul li {
   font-size: 16px;
   margin-bottom: 10px;
-  letter-spacing: -0.5;
 }
 
 /* --------------------------- Media Queries -------------------- */
@@ -514,7 +505,7 @@ footer ul li {
     background-color: red;
     margin: 0 auto;
   }
-  main.main_wrapper {
+  div.main_wrapper {
     margin: 0 20px;
     /* border: 1px solid blue; */
   }
@@ -567,7 +558,7 @@ footer ul li {
     flex-grow: 1.5;
   }
   header nav ul li:hover {
-    padding: none;
+  
     border-top: none;
     padding: 10px 0px 15px 0px;
     border-bottom: 2px solid #0065fc;
@@ -638,12 +629,11 @@ footer ul li {
     font-weight: 600;
   }
   div.populairesContainer {
-    
     padding: 0 20px;
     gap: 10px;
   }
-  
-  div.populairesContainer a  {
+
+  div.populairesContainer a {
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: row;
@@ -653,7 +643,7 @@ footer ul li {
     min-width: 310px;
     height: 147px;
   }
-  
+
   div.populairesContainer a.article-flex img {
     object-fit: cover;
     height: 135px;
@@ -664,14 +654,12 @@ footer ul li {
     padding: 14px 5px 0px 20px;
     display: flex;
     flex-direction: column;
-    background-color: tomato;
+    /* background-color: tomato; */
     width: fit-content;
-    min-width: none;
+ 
     align-content: space-between;
   }
-  div.populairesContainer a.article-flex
-    div.description
-    div.descriptionTitle {
+  div.populairesContainer a.article-flex div.description div.descriptionTitle {
     /* background-color:greenyellow; */
     display: flex;
     flex-direction: column;
@@ -683,8 +671,7 @@ footer ul li {
     justify-content: flex-end;
     padding-top: 25px;
   }
-  
-  
+
   /* ------------Section Hebergements --------------*/
   #hebergements {
     /* border: 1px solid violet; */
@@ -736,7 +723,7 @@ footer ul li {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-    align-items: space-around;
+   
     row-gap: 40px;
     gap: 10px;
     align-content: space-between;
@@ -801,7 +788,7 @@ footer ul li {
     margin: 0 auto;
     /* background-color: #0065fc; */
   }
-  main.main_wrapper {
+  div.main_wrapper {
     margin: 0 20px;
     /* border: 1px solid blue; */
   }
@@ -853,7 +840,7 @@ footer ul li {
     flex-grow: 1.5;
   }
   header nav ul li:hover {
-    padding: none;
+  
     border-top: none;
     padding: 10px 0px 15px 0px;
     border-bottom: 2px solid #0065fc;
@@ -926,7 +913,8 @@ footer ul li {
     flex-direction: row;
     justify-content: flex-start;
     flex-wrap: nowrap;
-    width: 80%;
+    width: 100%;
+    margin: 0 20px;
     min-width: 310px;
     height: 147px;
     /* padding: 5px; */
@@ -985,13 +973,13 @@ footer ul li {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-    align-items: space-around;
+   
     row-gap: 40px;
     gap: 20px;
     align-content: space-between;
   }
   [class^="activityCard-"] {
-    width: 48%;
+    width: 100%;
     min-width: 300px;
   }
   [class^="activityCard-"] img {
@@ -1045,7 +1033,7 @@ footer ul li {
     background-color: green;
     margin: 0 auto;
   }
-  main.main_wrapper {
+  div.main_wrapper {
     margin: 0 20px;
     /* border: 1px solid blue; */
   }
@@ -1097,7 +1085,7 @@ footer ul li {
     flex-grow: 1.5;
   }
   header nav ul li:hover {
-    padding: none;
+  
     border-top: none;
     padding: 10px 0px 15px 0px;
     border-bottom: 2px solid #0065fc;
@@ -1191,7 +1179,7 @@ footer ul li {
     padding: 5px 0 0px 10px;
     display: flex;
     flex-direction: column;
-    background-color: tomato;
+    /* background-color: tomato; */
     width: 100%;
     align-content: space-between;
   }
@@ -1204,9 +1192,7 @@ footer ul li {
   div.populairesContainer {
     gap: 10px;
   }
-  div.populairesContainer a.article-flex
-    div.description
-    div.descriptionStars {
+  div.populairesContainer a.article-flex div.description div.descriptionStars {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -1234,7 +1220,7 @@ footer ul li {
     width: 100%;
     /* border: 1px solid red; */
     background-color: white;
-    width: 335px;
+    width: 325px;
     /* text-align: s; */
     padding: 5px 5px 0 5px;
   }
@@ -1266,7 +1252,7 @@ footer ul li {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-    align-items: space-around;
+    
     row-gap: 40px;
     gap: 20px;
     align-content: space-between;
@@ -1317,13 +1303,9 @@ footer ul li {
     background-color: blue;
   }
 
-  main.main_wrapper {
+  div.main_wrapper {
     margin: 0 50px;
     /* border: 1px solid blue; */
-  }
-  div.wrapper {
-    margin: 0 50px;
-    /* border: 1px solid rgb(255, 0, 0); */
   }
   
 
@@ -1488,10 +1470,8 @@ footer ul li {
   div.populairesContainer {
     gap: 10px;
   }
-  
-  div.populairesContainer a.article-flex
-    div.description
-    div.descriptionStars {
+
+  div.populairesContainer a.article-flex div.description div.descriptionStars {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -1533,7 +1513,7 @@ footer ul li {
   /* ---------------- Section Activités --------------- */
   #activites {
     height: fit-content;
-    margin: 50px 50px 50px 50px;
+    margin: 50px 0px 50px 0px;
   }
   #activites h2 {
     margin: 0px 0 25px 0px;
@@ -1546,7 +1526,7 @@ footer ul li {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-    align-items: space-around;
+  
     row-gap: 40px;
     gap: 20px;
     align-content: space-between;
