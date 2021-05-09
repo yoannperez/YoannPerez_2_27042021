@@ -43,14 +43,14 @@ a {
 /* Unified articles styles */
 .activityCardContainer,
 .card,
-div.article-flex {
+a.article-flex {
   border-radius: 15px;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.49);
 }
 /* Unified Hovering style */
 .activityCardContainer:hover,
 .card:hover,
-div.article-flex:hover {
+a.article-flex:hover {
   background-color: #deebff35;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.613);
   transition: 0.3s;
@@ -67,10 +67,7 @@ main.main_wrapper {
   margin: 0 50px;
   /* border: 1px solid blue; */
 }
-div.wrapper {
-  margin: 0 50px;
-  /* border: 1px solid rgb(255, 0, 0); */
-}
+
 div.home-wrapper {
   margin: 0 50px;
   /* border: 1px solid rgb(255, 0, 0); */
@@ -342,7 +339,7 @@ div.populairesContainer {
   
 }
 /* ----- Config Article ------- */
-div.article-flex {
+a.article-flex {
   background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: row;
@@ -353,13 +350,13 @@ div.article-flex {
   padding: 5px;
 }
 
-div.populairesContainer a div.article-flex img {
+div.populairesContainer a.article-flex img {
   object-fit: cover;
   height: 135px;
   width: 127px;
   border-radius: 15px 0 0 15px;
 }
-div.populairesContainer a div.article-flex div.description {
+div.populairesContainer a.article-flex div.description {
   padding: 14px 0 0px 20px;
   display: flex;
   flex-direction: column;
@@ -367,8 +364,7 @@ div.populairesContainer a div.article-flex div.description {
   width: auto;
   align-content: space-between;
 }
-div.populairesContainer a
-  div.article-flex
+div.populairesContainer a.article-flex
   div.description
   div.descriptionTitle {
   /* background-color:greenyellow; */
@@ -376,7 +372,7 @@ div.populairesContainer a
   flex-direction: column;
   justify-content: space-between;
 }
-div.populairesContainer a div.article-flex div.description div.descriptionStars {
+div.populairesContainer a.article-flex div.description div.descriptionStars {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -395,6 +391,8 @@ div.populairesContainer a div.article-flex div.description div.descriptionStars 
 /* ---------------- Section Activités --------------- */
 #activites {
   margin: 50px 0;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 #activitiesFlexContainer {
   width: auto;
@@ -656,13 +654,13 @@ footer ul li {
     height: 147px;
   }
   
-  div.populairesContainer a div.article-flex img {
+  div.populairesContainer a.article-flex img {
     object-fit: cover;
     height: 135px;
     width: 127px;
     border-radius: 15px 0 0 15px;
   }
-  div.populairesContainer a div.article-flex div.description {
+  div.populairesContainer a.article-flex div.description {
     padding: 14px 5px 0px 20px;
     display: flex;
     flex-direction: column;
@@ -671,8 +669,7 @@ footer ul li {
     min-width: none;
     align-content: space-between;
   }
-  div.populairesContainer a
-    div.article-flex
+  div.populairesContainer a.article-flex
     div.description
     div.descriptionTitle {
     /* background-color:greenyellow; */
@@ -680,7 +677,7 @@ footer ul li {
     flex-direction: column;
     justify-content: space-between;
   }
-  div.populairesContainer a div.article-flex div.description div.descriptionStars {
+  div.populairesContainer a.article-flex div.description div.descriptionStars {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -923,7 +920,7 @@ footer ul li {
     margin: 0px 20px 25px 0;
     font-weight: 600;
   }
-  a div.article-flex {
+  a.article-flex {
     /* background-color: rgb(189, 14, 14); */
     display: flex;
     flex-direction: row;
@@ -1177,7 +1174,7 @@ footer ul li {
     margin: 0px 20px 25px 0;
     font-weight: 600;
   }
-  div.article-flex {
+  a.article-flex {
     margin: 20px;
     /* background-color: rgb(189, 14, 14); */
     display: flex;
@@ -1190,7 +1187,7 @@ footer ul li {
 
     /* padding: 5px; */
   }
-  div.populairesContainer a div.article-flex div.description {
+  div.populairesContainer a.article-flex div.description {
     padding: 5px 0 0px 10px;
     display: flex;
     flex-direction: column;
@@ -1198,7 +1195,7 @@ footer ul li {
     width: 100%;
     align-content: space-between;
   }
-  div.populairesContainer a div.article-flex img {
+  div.populairesContainer a.article-flex img {
     object-fit: cover;
     height: 115px;
     width: 105px;
@@ -1207,8 +1204,7 @@ footer ul li {
   div.populairesContainer {
     gap: 10px;
   }
-  div.populairesContainer a
-    div.article-flex
+  div.populairesContainer a.article-flex
     div.description
     div.descriptionStars {
     display: flex;
@@ -1463,7 +1459,7 @@ footer ul li {
     margin: 0px 20px 25px 0;
     font-weight: 600;
   }
-  div.article-flex {
+  a.article-flex {
     margin: 20px;
     /* background-color: rgb(189, 14, 14); */
     display: flex;
@@ -1475,7 +1471,7 @@ footer ul li {
     height: 127px;
     /* padding: 5px; */
   }
-  div.populairesContainer a div.article-flex div.description {
+  div.populairesContainer a.article-flex div.description {
     padding: 5px 0 0px 10px;
     display: flex;
     flex-direction: column;
@@ -1483,7 +1479,7 @@ footer ul li {
     width: 100%;
     align-content: space-between;
   }
-  div.populairesContainer a div.article-flex img {
+  div.populairesContainer a.article-flex img {
     object-fit: cover;
     height: 115px;
     width: 105px;
@@ -1493,8 +1489,7 @@ footer ul li {
     gap: 10px;
   }
   
-  div.populairesContainer a
-    div.article-flex
+  div.populairesContainer a.article-flex
     div.description
     div.descriptionStars {
     display: flex;
@@ -1538,7 +1533,7 @@ footer ul li {
   /* ---------------- Section Activités --------------- */
   #activites {
     height: fit-content;
-    margin: 50px 0 50px 0;
+    margin: 50px 50px 50px 50px;
   }
   #activites h2 {
     margin: 0px 0 25px 0px;
