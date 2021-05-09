@@ -527,10 +527,10 @@ footer ul li {
     margin: 0 20px;
     /* border: 1px solid rgb(255, 0, 0); */
   }
-  div.home-wrapper {
+  /* div.home-wrapper {
     margin: 0 0px;
-    /* border: 1px solid rgb(255, 0, 0); */
-  }
+    border: 1px solid rgb(255, 0, 0);
+  } */
 
   /* Header Settings */
   header img {
@@ -624,6 +624,12 @@ footer ul li {
     padding-right: 10px;
   }
   /* ------------Section Populaires --------------*/
+  div#section-homes {
+    
+    padding: 0 0px;
+  
+  }
+  
   #populaires {
     /* border: 1px solid orange; */
     width: 100%;
