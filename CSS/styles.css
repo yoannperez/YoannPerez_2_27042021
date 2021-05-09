@@ -566,30 +566,28 @@ footer ul li {
 
   /* ------------Section Recherche --------------*/
   form {
-    width: 100%;
     margin: 18px auto;
     display: flex;
     margin-bottom: 0;
-  }
-  section#filterSection > h2 {
+    
+  }  
+  section#filterSection > h2{
     margin-top: 30px;
     margin-left: 0;
     margin-bottom: 12px;
   }
-  input {
-    padding: 0px 5px 0 16px;
-  }
   #valide {
-    display: none;
-  }
-  #ok {
-    display: initial;
-    border-radius: 15px;
-    background-color: #0065fc;
-    border: none;
-    position: relative;
-    left: -30px;
-  }
+      display: none;
+    }
+    #ok{
+      display: initial;
+      border-radius: 15px;
+      background-color: #0065fc;
+      border: none;
+      position: relative;
+      left: -10px;
+    } 
+ 
 
   /* ------------Section Filtres --------------*/
   .filtre {
