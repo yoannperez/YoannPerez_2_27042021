@@ -346,7 +346,7 @@ a.article-flex {
 
 div.populairesContainer a.article-flex img {
   object-fit: cover;
-  height: 133px;
+  height: 100%;
   width: 127px;
   border-radius: 15px 0 0 15px;
 }
@@ -1169,7 +1169,7 @@ footer ul li {
   }
   div.populairesContainer a.article-flex img {
     object-fit: cover;
-    height: 115px;
+    height: 100%;
     width: 105px;
     border-radius: 15px 0 0 15px;
   }
@@ -1445,7 +1445,7 @@ footer ul li {
   }
   div.populairesContainer a.article-flex img {
     object-fit: cover;
-    height: 115px;
+    height: 100%;
     width: 105px;
     border-radius: 15px 0 0 15px;
   }
