@@ -263,15 +263,15 @@ div.homes p {
   justify-content: space-around;
   align-content: space-between;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 30px;
 }
 /* Paramétrage des cartes */
 [class^="card"] {
   height: 200px;
-  width: 245px;
+  
   /* border: 1px solid red; */
   background-color: white;
-  width: 250px;
+  width: 245px;
   /* text-align: s; */
   padding: 5px 5px 0 5px;
 }
@@ -394,6 +394,10 @@ div.populairesContainer a.article-flex div.description div.descriptionStars {
   margin: 50px 0;
   padding-left: 50px;
   padding-right: 50px;
+}
+#activites > h2{
+  
+  margin-bottom: 10px;
 }
 #activitiesFlexContainer {
   width: auto;
