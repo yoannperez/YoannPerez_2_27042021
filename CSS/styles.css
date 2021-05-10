@@ -90,6 +90,7 @@ a.login:hover {
 }
 header nav ul {
   list-style-type: none;
+  display: flex;
 }
 header nav ul li {
   display: inline-block;
@@ -507,7 +508,7 @@ footer ul li {
     display: inline-block;
     border-bottom: 2px solid gray;
     width: 50vw;
-    margin: 0 -1px;
+    margin: 0 1px;
     text-align: center;
     padding: 10px 0px 15px 0px;
     flex-grow: 1.5;
@@ -752,7 +753,7 @@ footer ul li {
     display: inline-block;
     border-bottom: 2px solid gray;
     width: 50vw;
-    margin: 0 -1px;
+    margin: 0 1px;
     text-align: center;
     padding: 10px 0px 15px 0px;
     flex-grow: 1.5;
@@ -964,7 +965,7 @@ footer ul li {
     display: inline-block;
     border-bottom: 2px solid gray;
     width: 50vw;
-    margin: 0 -1px;
+    margin: 0 1px;
     text-align: center;
     padding: 10px 0px 15px 0px;
     flex-grow: 1.5;
