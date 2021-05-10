@@ -141,7 +141,7 @@ input {
   line-height: 50px;
   border: 1px solid #e1e0e0;
 }
-input::placeholder { 
+input::placeholder {
   color: rgb(0, 0, 0);
   opacity: 1;
 }
@@ -185,7 +185,6 @@ section#filterSection > h2 {
   display: inline-block;
   vertical-align: bottom;
   font-size: 20px !important;
-
 }
 div#Filtres {
   /* background-color: rgb(60, 149, 97); */
@@ -268,7 +267,7 @@ div.homes p {
 /* Paramétrage des cartes */
 [class^="card"] {
   height: 200px;
-  
+
   /* border: 1px solid red; */
   background-color: white;
   width: 245px;
@@ -395,8 +394,7 @@ div.populairesContainer a.article-flex div.description div.descriptionStars {
   padding-left: 50px;
   padding-right: 50px;
 }
-#activites > h2{
-  
+#activites > h2 {
   margin-bottom: 10px;
 }
 #activitiesFlexContainer {
@@ -524,7 +522,7 @@ footer ul li {
   }
   div.wrapper {
     margin: 0 20px;
-    }
+  }
 
   /* Header Settings */
   header img {
@@ -561,7 +559,6 @@ footer ul li {
     flex-grow: 1.5;
   }
   header nav ul li:hover {
-  
     border-top: none;
     padding: 10px 0px 15px 0px;
     border-bottom: 2px solid #0065fc;
@@ -571,13 +568,10 @@ footer ul li {
   form {
     margin-top: 40px;
     margin-bottom: 0;
-    
-    
+
     display: flex;
-    
-    
-  }  
-  section#filterSection > h2{
+  }
+  section#filterSection > h2 {
     margin-top: 30px;
     margin-left: 0;
     margin-bottom: 12px;
@@ -586,22 +580,21 @@ footer ul li {
     padding: 0px 15px 0 16px;
   }
   #valide {
-      display: none;
-    }
-    #ok{
-      display: initial;
-      border-radius: 15px;
-      background-color: #0065fc;
-      border: none;
-      position: relative;
-      left: -15px;
-    } 
- 
+    display: none;
+  }
+  #ok {
+    display: initial;
+    border-radius: 15px;
+    background-color: #0065fc;
+    border: none;
+    position: relative;
+    left: -15px;
+  }
 
   /* ------------Section Filtres --------------*/
   .filtre {
     margin: 0px 10px 13px 0px;
-   }
+  }
   .filtre p {
     /* display: inline-block;
   position: relative;
@@ -658,7 +651,7 @@ footer ul li {
     flex-direction: column;
     /* background-color: tomato; */
     width: fit-content;
- 
+
     align-content: space-between;
   }
   div.populairesContainer a.article-flex div.description div.descriptionTitle {
@@ -666,7 +659,6 @@ footer ul li {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    
   }
   div.populairesContainer a.article-flex div.description div.descriptionStars {
     display: flex;
@@ -696,7 +688,7 @@ footer ul li {
     width: 100%;
     /* border: 1px solid red; */
     background-color: white;
-    
+
     /* text-align: s; */
     padding: 5px 5px 0 5px;
   }
@@ -714,7 +706,7 @@ footer ul li {
     height: fit-content;
     margin: 0px 0;
     margin-bottom: 50px;
-    padding:0 20px;
+    padding: 0 20px;
   }
   #activites h2 {
     margin: 0px 0 25px 0px;
@@ -730,14 +722,13 @@ footer ul li {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-   
+
     row-gap: 40px;
     gap: 10px;
     align-content: space-between;
   }
   [class^="activityCard-"] {
     width: 100%;
-    
   }
   [class^="activityCard-"] img {
     width: 100%;
@@ -847,7 +838,6 @@ footer ul li {
     flex-grow: 1.5;
   }
   header nav ul li:hover {
-  
     border-top: none;
     padding: 10px 0px 15px 0px;
     border-bottom: 2px solid #0065fc;
@@ -938,9 +928,7 @@ footer ul li {
     background-color: #fff;
     border-radius: 0px;
   }
- 
-  
-  
+
   .articlesContainer {
     justify-content: space-evenly;
     row-gap: 10px;
@@ -986,7 +974,7 @@ footer ul li {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-   
+
     row-gap: 40px;
     gap: 20px;
     align-content: space-between;
@@ -1098,7 +1086,6 @@ footer ul li {
     flex-grow: 1.5;
   }
   header nav ul li:hover {
-  
     border-top: none;
     padding: 10px 0px 15px 0px;
     border-bottom: 2px solid #0065fc;
@@ -1211,7 +1198,6 @@ footer ul li {
     flex-direction: column;
     justify-content: flex-start;
     height: 65px;
-    
   }
   div.populairesContainer a.article-flex div.description div.descriptionStars {
     display: flex;
@@ -1273,7 +1259,7 @@ footer ul li {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-    
+
     row-gap: 40px;
     gap: 20px;
     align-content: space-between;
@@ -1321,12 +1307,10 @@ footer ul li {
     margin: 0px 10px 25px 20px;
   }
 
-
   div.main_wrapper {
     margin: 0 50px;
     /* border: 1px solid blue; */
   }
-  
 
   /* ------------ Rechercher ------------ */
 
@@ -1495,7 +1479,6 @@ footer ul li {
     flex-direction: column;
     justify-content: flex-start;
     height: 65px;
-    
   }
 
   div.populairesContainer a.article-flex div.description div.descriptionStars {
@@ -1553,7 +1536,7 @@ footer ul li {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-  
+
     row-gap: 40px;
     gap: 20px;
     align-content: space-between;
