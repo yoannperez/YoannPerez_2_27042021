@@ -45,21 +45,21 @@ a {
 .card,
 a.article-flex {
   border-radius: 15px;
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.49);
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.216);
 }
 /* Unified Hovering style */
 .activityCardContainer:hover,
 .card:hover,
 a.article-flex:hover {
   background-color: #deebff35;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.613);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
   transition: 0.3s;
   /* width: 100%;
     height: auto; */
 }
 .filtre:hover {
   background-color: #deebff89;
-  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.613);
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.353);
   transition: 0.3s;
 }
 /* -------- Main wrapper ----------- */
@@ -143,6 +143,7 @@ input {
 }
 input::placeholder { 
   color: rgb(0, 0, 0);
+  opacity: 1;
 }
 #valide {
   cursor: pointer;
