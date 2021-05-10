@@ -1230,6 +1230,7 @@ footer ul li {
     display: inline-block;
     vertical-align: bottom;
     margin-top: 47px;
+    margin-left: 0;
   }
   div#Filtres {
     display: inline-flex;
