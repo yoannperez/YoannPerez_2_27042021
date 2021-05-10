@@ -1013,6 +1013,9 @@ footer ul li {
     padding-right: 10px;
   }
   /* ------------Section Populaires --------------*/
+  #section-homes {
+    padding: 0 20px;
+  }
   #populaires {
     width: 100%;
     height: auto;
@@ -1108,6 +1111,7 @@ footer ul li {
   #activites {
     height: fit-content;
     margin: 40px 0 50px 0;
+    padding: 0 20px;
   }
   #activites h2 {
     margin: 0px 0 25px 0px;
