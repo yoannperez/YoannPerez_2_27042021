@@ -141,6 +141,9 @@ input {
   line-height: 50px;
   border: 1px solid #e1e0e0;
 }
+input::placeholder { 
+  color: rgb(0, 0, 0);
+}
 #valide {
   cursor: pointer;
   position: relative;
@@ -180,6 +183,8 @@ section#filterSection > h2 {
   /* background-color: blueviolet; */
   display: inline-block;
   vertical-align: bottom;
+  font-size: 20px !important;
+
 }
 div#Filtres {
   /* background-color: rgb(60, 149, 97); */
@@ -495,7 +500,7 @@ footer ul li {
   /* Global settings */
   h1 {
     font-size: 22px;
-    margin: 30px 20px 4px 0px;
+    margin: 30px 20px 10px 0px;
   }
   h2 {
     font-size: 26px;
@@ -772,7 +777,7 @@ footer ul li {
   /* Global settings */
   h1 {
     font-size: 22px;
-    margin: 30px 20px 4px 0px;
+    margin: 30px 20px 10px 0px;
   }
   h2 {
     font-size: 26px;
@@ -1024,7 +1029,7 @@ footer ul li {
   /* Global settings */
   h1 {
     font-size: 22px;
-    margin: 30px 20px 4px 0px;
+    margin: 30px 20px 10px 0px;
   }
   h2 {
     font-size: 26px;
