@@ -214,6 +214,7 @@ div#Filtres {
   position: relative;
   text-transform: capitalize;
   padding-right: 20px;
+  font-weight: bold;
 }
 
 span .fa-stack-1x {
