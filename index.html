@@ -13,31 +13,9 @@
 
     <!-- Place this data between the <head> tags of your website -->
     <title>Réservia</title>
-    
-    
     <meta name="description" content="Le site de réservation pour le logement de vos rêves.">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 
-    <!-- Twitter Card data -->
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@publisher_handle" />
-    <meta name="twitter:title" content="Page Title" />
-    <meta
-      name="twitter:description"
-      content="Trouvez votre hébergement pour des vacances de rêve"
-    />
-    <meta name="twitter:creator" content="@author_handle" />
-    <!-- Twitter Summary card images must be at least 200x200px -->
-    <meta name="twitter:image" content="http://www.example.com/image.jpg" />
-
-    <!-- Open Graph data -->
-    <meta property="og:title" content="Reservia" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://www.example.com/" />
-    <meta property="og:image" content="http://example.com/image.jpg" />
-    <meta property="og:description" content="Trouvez votre hébergement pour des vacances de rêve" />
-    <meta property="og:site_name" content="Reservia" />
-    <meta property="fb:admins" content="Facebook numeric ID" />
   </head>
 
   <body>
@@ -58,18 +36,18 @@
         </div>
         
       </header>
-    <main class="main_wrapper">  
+    <div class="main_wrapper">  
       <!-- Section recherche-->
       <!-- Section recherche-->
       <section id="recherche">
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <p>En plein centre ville ou en pleine nature</p>
         <form action="traitement.php" method="POST">
-          <label for="recherche"><i class="fas fa-map-marker-alt"></i></label>
-          <input type="text" id="recherche" name="recherche" placeholder="Marseille, France"/>
+          <label for="recherche_field"><i class="fas fa-map-marker-alt"></i></label>
+          <input type="text" id="recherche_field" name="recherche" placeholder="Marseille, France"/>
           <input type="submit" value="Rechercher" name="valide" id="valide" />
           <button type="submit"  value="Rechercher" name="valide" id="ok">
-            <i class="fas fa-search fa-lg"></i></i></button>
+            <i class="fas fa-search fa-lg"></i></button>
         
         </form>
       </section>
@@ -121,11 +99,11 @@
           
         </div>
       </section>
-    </main>
+    </div>
 
       <!-- Logements disponibles -->
-      <div class="home-wrapper">
-      <section id="homes">
+      
+      <div id="section-homes">
         <!-- Left container -->
         <section id="hebergements">
           <h2>Hébergements à Marseille</h2>
@@ -249,114 +227,110 @@
             ><p class="more"><strong>Afficher plus</strong></p>
           </a>
         </section>
-        <!-- Les plus populaires -->
+        
         <section id="populaires">
-          <!-- Titre -->
+          
           <div class="titlePop">
             <h2>Les plus populaires</h2>
             <i class="fas fa-chart-line fa-2x"></i>
           </div>
-          <!-- Conteneur -->
-          <section class="populairesContainer">
-                    
-            <article class="article-flex">  <!-- Début article -->
-              <a href="#">
-                <div> <!-- div image -->
-                    <img
+          
+          <div class="populairesContainer">
+            
+            <a href="#" class="article-flex">      
+               
+              
+                <div> 
+                  <img
                       src="images/hebergement/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
                       alt="Chambre grand lit verte"
-                    />
-                </div><!-- fin div image -->
-                        <!-- Description -->
+                  />
+                </div>
                 <div class="description">
-                    <div class="descriptionTitle"><!-- Description title -->
+                  <div class="descriptionTitle">
                       <h3>Hôtel Le soleil du matin</h3>
                       <p>Nuit à partir de <strong>128€</strong></p>
-                    </div>    <!-- fin Description title -->
-                              <!-- Description stars -->
+                  </div>   
                     <div class="descriptionStars">
-                                      <!-- stars -->
-                        <div>
+                                     
+                      <div>
                         <i class="fas fa-star star-on"></i>
                         <i class="fas fa-star star-on"></i>
                         <i class="fas fa-star star-on"></i>
                         <i class="fas fa-star star-on"></i>
                         <i class="fas fa-star star-on"></i>
-                        </div>  <!-- fin div stars -->
-                    </div> <!-- Fin Description -->
-              </a>
-            </article> <!-- fin article -->
-            
-            <article class="article-flex">  <!-- Début article -->
-              <a href="#">
-                <div> <!-- div image -->
-                    <img
+                      </div> 
+                    </div> 
+                </div> 
+               
+            </a>
+            <a href="#" class="article-flex">
+               
+                <div> 
+                <img
                       src="images/hebergement/aw-creative-VGs8z60yT2c-unsplash.jpg"
                       alt="Chambre moderne avec un lit capitonné"
                     />
-                </div><!-- fin div image -->
-                        <!-- Description -->
+                </div>
+                        
                 <div class="description">
-                    <div class="descriptionTitle"><!-- Description title -->
-                      <h3>Au coeur de l'eau Chambres d'hôtes</h3>
-                      <p>Nuit à partir de <strong>71€</strong></p>
-                    </div>    <!-- fin Description title -->
-                              <!-- Description stars -->
-                    <div class="descriptionStars">
-                                      <!-- stars -->
-                        <div>
+                  <div class="descriptionTitle">
+                    <h3>Au coeur de l'eau Chambres d'hôtes</h3>
+                    <p>Nuit à partir de <strong>71€</strong></p>
+                  </div>    
+                  <div class="descriptionStars">
+                    <div>
                         <i class="fas fa-star star-on"></i>
                         <i class="fas fa-star star-on"></i>
                         <i class="fas fa-star star-on"></i>
                         <i class="fas fa-star star-on"></i>
                         <i class="fas fa-star star-off"></i>
-                        </div>  <!-- fin div stars -->
-                    </div> <!-- Fin Description -->
-              </a>
-            </article> <!-- fin article -->
-            <article class="article-flex">  <!-- Début article -->
-              <a href="#">
-                <div> <!-- div image -->
+                    </div>  
+                  </div> 
+                </div>  
+              
+            </a>
+            <a href="#" class="article-flex">
+                
+                  <div> 
                     <img
                       src="images/hebergement/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
                       alt="Chambre grand lit simple"
                     />
-                </div><!-- fin div image -->
-                        <!-- Description -->
-                <div class="description">
-                    <div class="descriptionTitle"><!-- Description title -->
+                  </div>
+
+                  <div class="description">
+                    <div class="descriptionTitle">
                       <h3>Hôtel Tout bleu et Blanc</h3>
                       <p>Nuit à partir de <strong>68€</strong></p>
-                    </div>    <!-- fin Description title -->
-                              <!-- Description stars -->
+                    </div>    
                     <div class="descriptionStars">
-                                      <!-- stars -->
+                                      
                         <div>
                         <i class="fas fa-star star-on"></i>
                         <i class="fas fa-star star-on"></i>
                         <i class="fas fa-star star-on"></i>
                         <i class="fas fa-star star-on"></i>
                         <i class="fas fa-star star-off"></i>
-                        </div>  <!-- fin div stars -->
-                    </div> <!-- Fin Description -->
-              </a>
-            </article> <!-- fin article -->
-          </section> <!-- Fin section populaireContainer -->
+                        </div>  
+                    </div> 
+                  </div>
+              
+            </a>
+          </div>  <!-- Fin populairesContainer -->
           
-        </section> <!-- Fin section POPULAIRES -->
-      </div>
-      </section> <!-- Fin section HOMES -->
+        </section> 
+      
+      </div> <!-- Fin section HOMES -->
 
-      <!-- ----------   Section Activités ------------- ---- -->
-      <!-- ----------   Section Activités ------------- ---- -->
-      <!-- ----------   Section Activités ------------- ---- -->
-      <!-- ----------   Section Activités ------------- ---- -->
+      
+      <!--  Section Activités -->
       <section id="activites">
-        <div class="wrapper">
+        
         <h2>Activités à Marseille</h2>
         <!-- ********* Activity 1 ******************** -->
        <div id="activitiesFlexContainer">
-        <article class="activityCard-1">
+        <div class="activityCard-1">
           <a href="#">
             <div class="activityCardContainer">
               <figure>
@@ -365,7 +339,7 @@
               </figure>
             </div>
           </a>
-        </article>
+        </div>
         <!-- ********* Activity 2 ******************** -->
         <div class="activityCard-2">
           <a href="#">
@@ -421,7 +395,7 @@
             </div>
           </a>
         </div>
-      </div>
+      
     </div>
       </section>
     
