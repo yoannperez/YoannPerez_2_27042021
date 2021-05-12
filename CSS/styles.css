@@ -215,6 +215,10 @@ span .fa-stack-1x {
 span .fa-stack-2x {
   color: #deebff;
 }
+i.coucou {
+  color: #e1e0e0 !important;
+  
+}
 div.homes {
   padding-top: 22px;
   display: flex;
