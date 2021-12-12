@@ -136,6 +136,22 @@ input {
   line-height: 50px;
   border: 1px solid #e1e0e0;
 }
+input::-webkit-input-placeholder {
+  color: rgb(0, 0, 0);
+  opacity: 1;
+}
+input::-moz-placeholder {
+  color: rgb(0, 0, 0);
+  opacity: 1;
+}
+input:-ms-input-placeholder {
+  color: rgb(0, 0, 0);
+  opacity: 1;
+}
+input::-ms-input-placeholder {
+  color: rgb(0, 0, 0);
+  opacity: 1;
+}
 input::placeholder {
   color: rgb(0, 0, 0);
   opacity: 1;
@@ -186,6 +202,8 @@ div#Filtres {
 }
 .filtre {
   cursor: pointer;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   display: flex;
   border: 2px solid #e1e0e0;
@@ -217,7 +235,6 @@ span .fa-stack-2x {
 }
 i.coucou {
   color: #e1e0e0 !important;
-  
 }
 div.homes {
   padding-top: 22px;
@@ -266,7 +283,8 @@ div.homes p {
   padding: 5px 5px 0 5px;
 }
 article.card img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 15px 15px 0 0;
   width: 100%;
   height: 114px;
@@ -332,7 +350,8 @@ a.article-flex {
 }
 
 div.populairesContainer a.article-flex img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 100%;
   width: 127px;
   border-radius: 15px 0 0 15px;
@@ -389,42 +408,48 @@ div.populairesContainer a.article-flex div.description div.descriptionStars {
 .activityCard-1 img {
   height: 389px;
   width: 100%;
-  object-fit: none;
+  -o-object-fit: none;
+     object-fit: none;
   border-radius: 15px 15px 0 0;
 }
 /*  Card 2 */
 .activityCard-2 img {
   height: 180px;
   width: 100%;
-  object-fit: none;
+  -o-object-fit: none;
+     object-fit: none;
   border-radius: 15px 15px 0 0;
 }
 /*  Card 3 */
 .activityCard-3 img {
   height: 109px;
   width: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 15px 15px 0 0;
 }
 /* --- Card 4 --- */
 .activityCard-4 img {
   height: 389px;
   width: 100%;
-  object-fit: none;
+  -o-object-fit: none;
+     object-fit: none;
   border-radius: 15px 15px 0 0;
 }
 /*  Card 5 */
 .activityCard-5 img {
   height: 109px;
   width: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 15px 15px 0 0;
 }
 /*  Card 6 */
 .activityCard-6 img {
   height: 180px;
   width: 100%;
-  object-fit: none;
+  -o-object-fit: none;
+     object-fit: none;
   border-radius: 15px 15px 0 0;
 }
 
@@ -594,7 +619,8 @@ footer ul li {
   }
 
   div.populairesContainer a.article-flex img {
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     height: 100%;
     width: 127px;
     border-radius: 15px 0 0 15px;
@@ -603,6 +629,8 @@ footer ul li {
     padding: 14px 5px 0px 20px;
     display: flex;
     flex-direction: column;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
     align-content: space-between;
   }
@@ -640,7 +668,8 @@ footer ul li {
     padding: 5px 5px 0 5px;
   }
   article.card img {
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     border-radius: 15px 15px 0 0;
     width: 100%;
     height: 114px;
@@ -650,6 +679,8 @@ footer ul li {
   }
   /* ---------------- Section Activités --------------- */
   #activites {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     margin: 0px 0;
     margin-bottom: 50px;
@@ -676,7 +707,8 @@ footer ul li {
   [class^="activityCard-"] img {
     width: 100%;
     height: 135px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 
   /*  Footer  */
@@ -854,7 +886,8 @@ footer ul li {
     padding: 5px 5px 0 5px;
   }
   article.card img {
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     border-radius: 15px 15px 0 0;
     width: 100%;
     height: 114px;
@@ -864,6 +897,8 @@ footer ul li {
   }
   /* ---------------- Section Activités --------------- */
   #activites {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     margin: 0px 0;
     margin-bottom: 50px;
@@ -891,7 +926,8 @@ footer ul li {
   [class^="activityCard-"] img {
     width: 100%;
     height: 135px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 
   /* ------------ Footer -------------- */
@@ -1060,7 +1096,8 @@ footer ul li {
     align-content: space-between;
   }
   div.populairesContainer a.article-flex img {
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     height: 100%;
     width: 105px;
     border-radius: 15px 0 0 15px;
@@ -1103,7 +1140,8 @@ footer ul li {
     padding: 5px 5px 0 5px;
   }
   article.card img {
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     border-radius: 15px 15px 0 0;
     width: 100%;
     height: 114px;
@@ -1113,6 +1151,8 @@ footer ul li {
   }
   /* ---------------- Section Activités --------------- */
   #activites {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     margin: 40px 0 50px 0;
     padding: 0 20px;
@@ -1139,7 +1179,8 @@ footer ul li {
   [class^="activityCard-"] img {
     width: 100%;
     height: 135px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   /* ------------ Footer -------------- */
   footer div.container {
@@ -1247,6 +1288,8 @@ footer ul li {
     position: relative;
   }
   .filtre {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
     display: flex;
     border: 2px solid #e1e0e0;
@@ -1325,7 +1368,8 @@ footer ul li {
     align-content: space-between;
   }
   div.populairesContainer a.article-flex img {
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     height: 100%;
     width: 105px;
     border-radius: 15px 0 0 15px;
@@ -1368,7 +1412,8 @@ footer ul li {
     padding: 5px 5px 0 5px;
   }
   article.card img {
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     border-radius: 15px 15px 0 0;
     width: 100%;
     height: 114px;
@@ -1378,6 +1423,8 @@ footer ul li {
   }
   /* ---------------- Section Activités --------------- */
   #activites {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     margin: 50px 0px 50px 0px;
   }
@@ -1403,7 +1450,8 @@ footer ul li {
   [class^="activityCard-"] img {
     width: 100%;
     height: 135px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   /* ------------ Footer -------------- */
   footer div.container {
